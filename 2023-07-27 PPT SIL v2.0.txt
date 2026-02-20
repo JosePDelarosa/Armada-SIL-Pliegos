@@ -1,0 +1,1178 @@
+ 
+ 
+Pliego de Prescripciones Técnicas 
+ 
+ 
+ 
+ 
+ACUERDO MARCO DE ASISTENCIA TÉCNICA PARA EL MANTENIMIENTO EVOLUTIVO DE LAS SOLUCIONES DE GESTIÓN DEL SOSTENIMIENTO EN UN MÓDULO DESPLEGABLE A BORDO EN EL ENTORNO DE LA PLATAFORMA DE INFORMACIÓN LOGÍSTICA (SIL) DE LA ARMADA 
+ 	 
+TABLA DE CONTENIDO 
+1.  OBJETO DEL CONTRATO	4 
+2.  DOCUMENTACION DE REFERENCIA	4 
+3.  GESTIÓN DEL ACUERDO MARCO Y CONTRATOS BASADOS	6 
+3.1.  Responsable del contrato	6 
+4. DESCRIPCIÓN DE LA PRESTACIONES	7 
+4.1. Mantenimiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada	7 
+4.2. Mantenimiento de las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves	11 
+4.3. Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida de la Plataforma Logística SIL de la Armada	15 
+5.  GESTIÓN DE CAMBIOS	26 
+6.  EQUIPO DE DESARROLLO A EMPLEAR	27 
+6.1.  Aspectos Generales	27 
+6.2.  Dimensionado del Equipo de Trabajo	27 
+6.3.  Descripción de Perfiles	29 
+6.4. Incorporación del Equipo de Trabajo	41 
+6.5. Modificaciones en la composición del equipo de trabajo	41 
+7.  CENTRO DE TRABAJO, HORARIO, DESPLAZAMIENTOS Y MOVILIDAD	42 
+7.1.  Centros de trabajo	42 
+7.2.  Desplazamientos obligatorios	43 
+8.  CONDICIONES DE EJECUCIÓN DEL CONTRATO	43 
+8.1.  Condiciones Generales	43 
+8.2.  Condiciones Específicas	43 
+8.3.  Seguimiento del Contrato	43 
+8.4.  Informes trimestrales de situación	44 
+8.5.  Reuniones de seguimiento	44 
+8.6.  Gestión de los trabajos	45 
+8.7.  Documentación de los trabajos	45 
+8.8.  Garantía de los trabajos	46 
+8.9.  Propiedad intelectual	46 
+9.  ASEGURAMIENTO DE LA CALIDAD	46 
+10.  CONDICIONES GENERALES DE LEGISLACIÓN	47 
+10.1.  Compatibilidad con el protocolo IPv6	47 
+ANEXO I.  REQUISITOS TÉCNICOS DEL MÓDULO DE MANTENIMIENTO E INGENIERÍA DEL CLICLO DE VIDA DE LA PLATAFORMA SIL	48 
+I.1.  REQUISITOS FUNCIONALES	48 
+I.2.  REQUISITOS NO FUNCIONALES	59 
+ANEXO II.  ENTORNO TECNOLÓGICO	63 
+II.1.  ENTORNOS REQUERIDOS	63 
+II.2.  ENTORNO DE DESARROLLO	63 
+ANEXO III.  GLOSARIO DE TÉRMINOS	64 
+
+  
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+
+Pág. 2 de 66 
+ÍNDICE DE FIGURAS 
+Figura 1. Situación actual de las aplicaciones de la Plataforma Logística SIL. ......................... 15 Figura 2. Plataforma SIL de gestión integral del sostenimiento a desarrollar. .......................... 16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	 
+ 
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+
+Pág. 3 de 66 
+
+1. OBJETO DEL CONTRATO 
+La prestación del servicio de mantenimiento evolutivo de las soluciones actuales de gestión de sostenimiento en un módulo desplegable a bordo para su integración en la Plataforma de Información Logística SIL de la Armada. 
+Este mantenimiento evolutivo se desglosa en los siguientes elementos: 
+1. Mantenimiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada, que consiste en la prestación de los servicios de asistencia técnica y mantenimiento correctivo, evolutivo, adaptativo y perfectivo de este módulo. 
+2. Mantenimiento de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, que consiste en la prestación de los servicios de asistencia técnica y mantenimiento correctivo de estas aplicaciones legadas. 
+3. Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida, tanto en su vertiente de Arsenales como de Aeronaves, para su integración en un módulo desplegable a bordo dentro de la Plataforma Logística SIL de la Armada. 
+La descripción detallada de las prestaciones se desarrolla en el apartado 4 DESCRIPCIÓN DE LA PRESTACIONES. 
+2. DOCUMENTACION DE REFERENCIA 
+a) Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014. 
+b) Instrucción Permanente 001/2007, de 25 de abril, del AJAL, sobre “Seguimiento y Control de Contratos Centralizados de Mantenimiento”. 
+c) Instrucción Permanente de Gestión Económica 01/2016 del Director de Asuntos Económicos de la Armada sobre la figura del “Responsable del Contrato”. 
+d) Instrucción Permanente de Organización 04/2014, de 30 de septiembre, del Almirante Jefe de Estado Mayor de la Armada, sobre procedimientos para evitar incurrir en supuestos de cesión ilegal de trabajadores. 
+e) Manual de Mantenimiento de Segundo Escalón de la Armada (MAP-2), de la Jefatura de Apoyo Logístico, en la versión que se encuentre vigente. 
+f) Manual de Mantenimiento de primer escalón de la Armada (MAP-1), en la versión que se encuentre vigente (actualmente ver. 4, dic-2018). 
+g) Instrucción permanente de logística 001/2018, de 23 de marzo, del Almirante Jefe del Apoyo Logístico por la que se desarrolla el Concepto de Apoyo Logístico y se establecen directrices para revisar la doctrina y estructura del apoyo logístico. 
+h) Instrucción 01/18, de 15 de febrero, del AJAL, sobre la Propuesta Inicial de Apoyo (PIDA). 
+i) Orden Ministerial 76/2006, de 19 de mayo, por la que se aprueba la Política de Seguridad de la Información del Ministerio de Defensa. 
+j) Instrucción Técnica IT-01/SDGTIC/12/MSOADEF/V2.0, MODELO DE ARQUITECTURA ORIENTADA A SERVICIOS DEL MINISDEF (Ministerio de Defensa), en la versión que se encuentre vigente y que a fecha de este PPT (Pliego de Prescripciones Técnicas) es la versión 2.03 de 5/3/2012. 
+k) Instrucción Técnica GU-345-ARTEC/01/13/V1, GUÍA DE IMPLEMENTACIÓN DE SERVICIOS WEB EN EL MINISDEF, en la versión que se encuentre vigente y que a fecha de este PPT es la versión 1.1 de 17/12/2012. 
+l) Instrucción 51/2013, de 24 de junio, del Secretario de Estado de Defensa, por la que se aprueban las Normas de Seguridad de la Información en los Documentos (SEGINFODOC). 
+m) Orden DEF/2639/2015, de 3 de diciembre, por la que se establece la Política de los Sistemas y Tecnologías de la Información y las Comunicaciones del Ministerio de Defensa (Política CIS/TIC MDEF). 
+n) Instrucción 58/2016, de 28 de octubre, del Secretario de Estado de Defensa, por la que se aprueba la Arquitectura Global de Sistemas y Tecnologías de Información y Comunicaciones (AG CIS/TIC) del Ministerio de Defensa. 
+o) Instrucción 33 /2018, de 6 de junio, del Secretario de Estado de Defensa, por la que se aprueba el Plan Estratégico de los Sistemas y Tecnologías de la Información y las Comunicaciones (PECIS) del Ministerio de Defensa. 
+p) Resolución de 21 de marzo de 2013, de la Secretaría de Estado de Administraciones Públicas, por la que se aprueba la Guía de Comunicación Digital para la Administración General del Estado, https://imagen.funciona.es.  
+q) Resolución 420/17058/2018, de 7 de noviembre, de la Secretaría General Técnica, por la que se da publicidad al Esquema de Metadatos para la Gestión del Documento Electrónico en el ámbito del Ministerio de Defensa (eEMGDE-MDEF). 
+r) Instrucción 37/2019, de 9 de julio, del Secretario de Estado de Defensa, para la coordinación de la gestión de la Información y del Conocimiento en el Ministerio de Defensa. 
+s) Manifesto for Agile SW Development (manifiesto para el desarrollo de SW ágil), https://agilemanifesto.org/. 
+t) International specification for technical publications using a common source database (S1000D), http://public.s1000d.org/Pages/Home.aspx. 
+u) Catálogo de asuntos, materias o elementos que deben ser clasificados en el Ministerio de Defensa, de la Subsecretaría de Defensa, de 19 de abril de 2021. 
+v) Instrucción Técnica 01/20 del CESTIC v2.0, “Solicitud de nueva necesidad de servicio o aplicación CIS/TIC en el Ministerio de Defensa, de 10 de enero de 2022. 
+w) Guías del Centro Criptológico Nacional sobre Seguridad de las Tecnologías de la Información y las Comunicaciones (CCN-STIC), aplicables. 
+x) Manual de ayuda de GALIA v22.3, 10 de enero de 2023. 
+y) ISO/IEC/IEEE 14764:2022 Software engineering — Software life cycle processes — Maintenance de enero de 2022. 
+3. GESTIÓN DEL ACUERDO MARCO Y CONTRATOS BASADOS 
+Serán de aplicación a la ejecución de este Acuerdo Marco y sus Contratos Basados, la normativa de las referencias a), b), c) y d), sus revisiones así como las nuevas disposiciones y normativas que puedan sustituir o complementar a las referenciadas dentro del plazo de ejecución estimado del Contrato. 
+3.1. Responsable del contrato 
+El Órgano de Contratación designará un RCA (Responsable del Contrato de la Administración) para el Acuerdo Marco y sus Contratos Basados al que corresponderá, según el art. 62 de la ley 9/2017, supervisar su ejecución y adoptar las decisiones y dictar las instrucciones necesarias con el fin de asegurar la correcta realización de la prestación pactada, dentro del ámbito de facultades que éste le atribuya, ajustándose a lo indicado en la instrucción de la referencia c). 
+La empresa contratista nombrará a un DP (Director del Proyecto) del Contrato Basado que se corresponde con el coordinador técnico responsable establecido en el punto 3.b) del Anexo V “BUENAS PRÁCTICAS EN LA FASE DE PREPARACIÓN DE LOS CONTRATOS” del documento de la referencia d). 
+El DP será el interlocutor con quien se relacionará únicamente la entidad contratante (a través del RCA) durante la ejecución del Contrato Basado y a quien corresponderá la dirección del proyecto, impartir directamente las órdenes e instrucciones de trabajo al resto de trabajadores del ED (Equipo de Desarrollo) del cual formará parte, así como de informar al RCA de aquellas personas a su cargo que dejen de prestar servicios. 
+Los perfiles que deberán cumplir el ED se describen en el epígrafe 6.3. 
+El RCA podrá designar a determinadas personas de AT (Apoyo Técnico) para asistirle durante la ejecución de los Contratos Basados en el cumplimiento de sus atribuciones. 
+El DP atenderá las cuestiones técnicas que el AT le plantee y facilitará la documentación solicitada para que el AT disponga del pleno conocimiento de las circunstancias en que se desarrollan los trabajos, así como de los eventuales problemas que puedan plantearse y de las tecnologías, métodos y herramientas utilizados para resolverlos. 
+El DP podrá redirigir determinadas cuestiones específicas para que sean atendidas por personal concreto de su equipo. 
+ 
+4. DESCRIPCIÓN DE LA PRESTACIONES 
+Para el cumplimiento del objeto del contrato, la empresa contratista prestará los siguientes servicios. 
+4.1. Mantenimiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada 
+La empresa contratista prestará los servicios de asistencia técnica y mantenimiento descritos en los apartados del 4.1.1 al 4.1.4, y que comprenden: la administración del sistema; el soporte y formación a los usuarios; la consultoría técnica; el mantenimiento correctivo, evolutivo, perfectivo y adaptativo del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada. 
+La estimación de carga de trabajo se distribuye aproximadamente en un 30% en las tareas descritas en los apartados 4.1.1 Administración del sistema, 4.1.2 Soporte y formación a usuarios, y 4.1.3 Consultoría técnica y un 70% en las tareas descritas en el apartado 4.1.4 Mantenimiento. 
+La estabilización documental consiste en la actualización de la documentación de las distintas versiones desplegadas del producto en Enterprise Architect. 
+4.1.1. Administración del sistema 
+La administración del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada comprende los trabajos de: instalación de nuevas versiones; realizar y gestionar copias de seguridad; administración del software y bases de datos; mantenimiento y suministro de licencias software. 
+La empresa contratista instalará las nuevas versiones del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada en la fecha de implantación planificada por el RCA e intentando aprovechar las horas de menor uso del sistema. 
+La empresa contratista llevará un control de las versiones desplegadas en el Entorno de Producción e informará al RCA tanto de su número como de las propuestas de cambio implementadas. 
+La empresa contratista realizará diariamente y gestionará copias de seguridad de la base de datos del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada que permitan la restauración de los datos ante un fallo catastrófico. 
+La empresa contratista administrará el Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada y los diferentes entornos existentes en el cliente en cada momento (desarrollo, producción, preproducción, formación, etc.) e independientemente de los servidores donde esté instalado. 
+La empresa contratista deberá hacerse cargo de las licencias existentes del software de desarrollo del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada, o sus actualizaciones, salvo que el RCA establezca otras directrices. 
+La administración y provisión del hardware necesario para el funcionamiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada no será responsabilidad de la empresa contratista. Sí será su responsabilidad la provisión de los equipos informáticos de los puestos de trabajo de su personal (ordenadores personales, monitores, resto de hardware, así como las licencias software necesarias). 
+Asimismo, la empresa contratista dará asistencia técnica en relación a los requisitos necesarios de hardware para que las prestaciones del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada sean las demandadas por el RCA. 
+4.1.2. Soporte y formación a usuarios 
+La empresa contratista proporcionara soporte a usuarios mediante: la atención telefónica, el sistema de gestión propio del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada, el correo electrónico y la asistencia in situ. 
+La asistencia in situ se prestará fuera del centro de trabajo habitual cuando sea necesario y previa autorización del RCA. 
+A petición del RCA, la empresa contratista impartirá formación a los usuarios sobre las funcionalidades del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada, elaborando las presentaciones y documentación ad hoc necesaria. 
+4.1.3. Consultoría técnica 
+La empresa contratista prestará el servicio de consultoría para las cuestiones de carácter técnico del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada que el RCA demande, dentro del alcance del presente contrato, facilitando la toma de decisión y el seguimiento de los trabajos. 
+Los trabajos habituales de consultoría, pero no los únicos, que la empresa contratista realizará son los siguientes: 
+• Asistencia a reuniones en calidad apoyo técnico con objeto de aportar su conocimiento técnico del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada. 
+• Elaboración de informes como sumarios ejecutivos periódicos, boletines de servicio de las versiones, análisis y reporte de propuestas de cambio, etc. 
+• Estudio de requisitos funcionales, análisis de viabilidad, diseño y propuesta de alternativas de solución software. 
+• Estimación de recursos materiales y humanos para acometer desarrollos objeto del contrato. 
+• Consultas a las bases de datos del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada para realizar la modificación o extracción de un volumen importante de datos. 
+Como parte del servicio de consultoría técnica, la empresa contratista facilitará la información del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada y el acceso a la misma al personal de la STAL (Sección Técnica Aplicaciones Logísticas – DISOS – JAL) designado por el RCA. Asimismo, atenderá y dará respuesta con diligencia a las cuestiones técnicas que el citado personal le plantee. 
+4.1.4. Mantenimiento 
+La empresa contratista ejecutará las acciones de mantenimiento correctivo, evolutivo, adaptativo y perfectivo que el RCA le encomiende atendiendo a la prioridad que éste haya asignado. 
+Las definiciones de los tipos de mantenimiento aplicables al presente contrato son las descritas en METRICA versión 3 y que aquí se reproducen: 
+• “El mantenimiento correctivo comprende aquellos cambios precisos para corregir errores del producto software.” 
+• “El mantenimiento evolutivo comprende las incorporaciones, modificaciones y eliminaciones necesarias en el producto software para cubrir la expansión o cambio en las necesidades del usuario.” 
+• “El mantenimiento adaptativo comprende las modificaciones que afectan a los entornos en los que el sistema opera, por ejemplo, cambios de configuración del hardware, software de base, gestores de base de datos, comunicaciones, etc.” 
+• “El mantenimiento perfectivo comprende las acciones llevadas a cabo para mejorar la calidad interna de los sistemas en cualquiera de sus aspectos: reestructuración del código, definición más clara del sistema y optimización del rendimiento y eficiencia.” 
+El contratista elaborará un Plan de Gestión de la Configuración, que describirá las actividades planificadas para mantener la integridad de los incrementos de producto y producto final, que se obtienen a lo largo del desarrollo del Acuerdo Marco en los distintos Contratos Basados, garantizando que no se realicen cambios incontrolados y que todos los participantes en el proceso de mantenimiento disponen de la versión adecuada de los productos que manejen. 
+Para cada versión, la empresa contratista mantendrá actualizada la documentación de producto del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada, descrita en el epígrafe 4.1.6, en Enterprise Architect y en documento Word y pdf. 
+4.1.5. Plazos de respuesta 
+El plazo máximo de instalación de una nueva versión es de 72 horas desde su fecha y hora de inicio aprobadas, considerándose una instalación fallida si excediese este plazo. 
+La empresa contratista no excederá este plazo, salvo causa debidamente justificada y no achacable a ésta. En caso de exceder dicho plazo revertirá el Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada a la versión inmediatamente anterior y a la mayor brevedad posible. 
+El plazo máximo para restablecer el funcionamiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada ante un fallo catastrófico o caída del sistema es de 72 horas desde la fecha y hora de comunicación del hecho, sea fecha laboral o no, salvo causa justificada y no achacable a la empresa contratista. 
+Cuando la empresa contratista, por causas imputables al mismo, hubiere incurrido en demora respecto al cumplimiento del plazo total, la Administración podrá optar por la imposición de las penalidades diarias en la proporción de 0,60 euros por cada 1.000 euros del precio del contrato, IVA excluido (art.193 LCSP).  
+4.1.6. Documentación de producto 
+La documentación de producto del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada es la siguiente: 
+• Plan de Gestión de la Configuración  
+• Especificación de Requisitos 
+• Casos de Uso 
+	? 	Descripción de escenarios principal y alternativos  
+	? 	Diagrama de flujo de escenarios complicados 
+	? 	Trazabilidad con Requisitos documentada 
+• Modelos de datos 
+	? 	Conceptual 
+* Documentación de entidades y relaciones 
+* Trazabilidad con Requisitos y Casos de Uso documentada 
+	? 	Lógico 
+* Documentación de entidades, atributos y relaciones 
+* Trazabilidad con Requisitos, Casos de Uso documentada y Modelo de datos Conceptual documentada 
+	? 	Físico 
+* Documentación de tablas, campos, claves, constraints  y relaciones con todas sus características 
+* Trazabilidad con Requisitos, Casos de Uso y Modelo de Datos Lógico documentada 
+• Glosario de Términos, Abreviaturas y Acrónimos. 
+Durante la ejecución de los trabajos, el adjudicatario se comprometerá, en todo momento a facilitar, a las personas designadas por el RCA, la información y documentación que éstas soliciten para disponer de un pleno conocimiento de las circunstancias en que se desarrollan los trabajos, así como de los eventuales problemas que puedan plantearse y de las tecnologías, métodos y herramientas utilizados para resolverlos. 
+La documentación, así como los trabajos realizados, quedarán en propiedad exclusiva de la Armada, sin que la empresa contratista pueda conservarla, ni obtener copia de la misma o facilitarla a terceros, sin la expresa autorización de la JAL, que la podría dar, en su caso, previa petición formal de la empresa contratista con expresión del fin. 
+4.2. Mantenimiento de las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves 
+La empresa contratista prestará los siguientes servicios de asistencia técnica y mantenimiento descritos en los apartados del 4.2.1 al 4.2.4, y que comprenden: la administración del sistema; el soporte y formación a los usuarios; la consultoría técnica; el mantenimiento correctivo de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves. 
+La estimación de carga de trabajo se distribuye aproximadamente en un 30% en las tareas descritas en los apartados 4.2.1 Administración del sistema, 4.2.2 Soporte y formación a usuarios, y 4.2.3 Consultoría técnica y un 70% en las tareas descritas en el apartado 4.2.4 Mantenimiento. 
+4.2.1. Administración del sistema 
+La administración de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, comprende los trabajos de: instalación de nuevas versiones; realización y gestión de copias de seguridad; administración de software y bases de datos; mantenimiento y suministro de licencias software; soporte técnico a los administradores del hardware y a los administradores de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, en los Arsenales. 
+La empresa contratista instalará las nuevas versiones de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, en la fecha de implantación panificada por el RCA e intentando aprovechar las horas de menor uso del sistema. 
+La empresa contratista realizará diariamente y gestionará copias de seguridad de las bases de datos de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, que permitan la restauración de los datos ante un fallo catastrófico. 
+La empresa contratista administrará las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, y los diferentes entornos existentes en el cliente en cada 	momento, 	(desarrollo, 	producción, 	preproducción, 	formación, 	etc.), independientemente de los servidores donde estén instaladas. 
+La empresa contratista administrará los citados entornos e instalará y desinstalará nuevos entornos según las instrucciones del RCA. 
+La empresa contratista deberá hacerse cargo de las licencias existentes del software de desarrollo de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, y de sus actualizaciones, salvo que el RCA establezca otras directrices. 
+La administración y provisión del hardware necesario para el funcionamiento de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, no será responsabilidad de la empresa contratista. Si será su responsabilidad la provisión de los equipos informáticos de los puestos de trabajo de su personal (ordenadores personales, monitores resto de hardware, así como las licencias software necesarias). 
+No obstante lo anterior, el contratista dará soporte técnico a la STAL y a los administradores de sistemas del cliente para ayudar a la resolución de incidencias acaecidas en los servidores asociados a las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, así como en la instalación y puesta en marcha de los servidores que se puedan instalar en las unidades de la Armada. 
+Asimismo, la empresa contratista dará asistencia técnica en relación a los requisitos hardware necesarios para que las prestaciones de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, sean las demandas por el RCA. 
+4.2.2. Soporte y formación a usuarios 
+La empresa contratista proporcionara soporte a usuarios mediante: la atención telefónica, el sistema de gestión propio de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, el correo electrónico y la asistencia in situ. 
+La asistencia in situ se prestará fuera del centro de trabajo habitual cuando sea necesario y previa autorización del RCA. 
+A petición del RCA, la empresa contratista impartirá formación a los usuarios sobre las funcionalidades de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, elaborando las presentaciones y documentación ad hoc necesaria. 
+4.2.3. Consultoría técnica 
+La empresa contratista prestará el servicio de consultoría para las cuestiones de carácter técnico de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, que el RCA demande, dentro del alcance del presente contrato, facilitando la toma de decisión y el seguimiento de los trabajos. 
+Los trabajos habituales de consultoría, pero no los únicos, que la empresa contratista realizará son los siguientes: 
+• Asistencia a reuniones en calidad apoyo técnico con objeto de aportar su conocimiento técnico de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves. 
+• Elaboración de informes como sumarios ejecutivos periódicos, boletines de servicio de las versiones, análisis y reporte de propuestas de cambio, etc. 
+• Estudio de requisitos funcionales, análisis de viabilidad, diseño y propuesta de alternativas de solución software. 
+• Estimación de recursos materiales y humanos para acometer desarrollos objeto del contrato. 
+• Consultas a las bases de datos de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, para realizar la modificación o extracción de un volumen importante de datos. 
+Como parte del servicio de consultoría técnica, la empresa contratista facilitará la información de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, y el acceso a las mismas al personal de la STAL designado por el RCA. Asimismo, atenderá y dará respuesta con diligencia a las cuestiones técnicas que el citado personal le plantee. 
+4.2.4. Mantenimiento 
+La empresa contratista ejecutará las acciones de mantenimiento correctivo que el RCA le encomiende atendiendo a la prioridad que éste haya asignado. 
+Las definiciones de los tipos de mantenimiento aplicables al presente contrato son las descritas en METRICA versión 3 y que aquí se reproducen: 
+• “El mantenimiento correctivo comprende aquellos cambios precisos para corregir errores del producto software.” 
+El contratista elaborará un Plan de Gestión de la Configuración, que describirá las actividades planificadas para mantener la integridad de los incrementos de producto y producto final, que se obtienen a lo largo del desarrollo del Acuerdo Marco en los distintos Contratos Basados, garantizando que no se realicen cambios incontrolados y que todos los participantes en el proceso de mantenimiento disponen de la versión adecuada de los productos que manejen. 
+Para cada versión, la empresa contratista mantendrá actualizada la documentación de producto, descrita en el epígrafe 4.2.6, en Enterprise Architect y en documento Word y pdf. 
+4.2.5. Plazos de respuesta 
+El plazo máximo de instalación de una nueva versión es de 72 horas desde su fecha y hora de inicio aprobadas, considerándose una instalación fallida si excediese este plazo. 
+La empresa contratista no excederá este plazo, salvo causa debidamente justificada y no achacable a ésta. En caso de exceder dicho plazo revertirán las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, a las versiones inmediatamente anteriores y a la mayor brevedad posible. 
+El plazo máximo para restablecer el funcionamiento de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, ante un fallo catastrófico o caída del sistema es de 72 horas desde la fecha y hora de comunicación del hecho, sea fecha laboral o no, salvo causa justificada y no achacable a la empresa contratista. 
+Cuando la empresa contratista, por causas imputables al mismo, hubiere incurrido en demora respecto al cumplimiento del plazo total, la Administración podrá optar por la imposición de las penalidades diarias en la proporción de 0,60 euros por cada 1.000 euros del precio del contrato, IVA excluido (art.193 LCSP).  
+4.2.6. Documentación de producto 
+La documentación de producto de las aplicaciones de sostenimiento legadas, GALIA Arsenales y GALIA Aeronaves, es la siguiente: 
+• Plan de Gestión de la Configuración 
+• Especificación de Requisitos 
+• Casos de Uso 
+	? 	Descripción de escenarios principal y alternativos  
+	? 	Diagrama de flujo de escenarios complicados 
+	? 	Trazabilidad con Requisitos documentada 
+• Modelos de datos 
+	? 	Conceptual 
+* Documentación de entidades y relaciones 
+* Trazabilidad con Requisitos y Casos de Uso documentada 
+	? 	Lógico 
+* Documentación de entidades, atributos y relaciones 
+* Trazabilidad con Requisitos, Casos de Uso documentada y Modelo de datos Conceptual documentada 
+	? 	Físico 
+* Documentación de tablas, campos, claves, constraints  y relaciones con todas sus características 
+* Trazabilidad con Requisitos, Casos de Uso y Modelo de Datos Lógico documentada 
+• Glosario de Términos, Abreviaturas y Acrónimos. 
+Durante la ejecución de los trabajos, el adjudicatario se comprometerá, en todo momento a facilitar, a las personas designadas por el RCA, la información y documentación que éstas soliciten para disponer de un pleno conocimiento de las circunstancias en que se desarrollan los trabajos, así como de los eventuales problemas que puedan plantearse y de las tecnologías, métodos y herramientas utilizados para resolverlos. 
+La documentación, así como los trabajos realizados, quedarán en propiedad exclusiva de la Armada, sin que la empresa contratista pueda conservarla, ni obtener copia de la misma o facilitarla a terceros, sin la expresa autorización de la JAL, que la podría dar, en su caso, previa petición formal de la empresa contratista con expresión del fin. 
+4.3. Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida de la Plataforma Logística SIL de la Armada 
+4.3.1. Situación actual 
+
+Figura 1. Situación actual de las aplicaciones de la Plataforma Logística SIL. 
+Actualmente, la Plataforma Logística SIL de la Armada es una única solución modular y escalable, con una arquitectura objetivo, basada en un mismo framework y gestor de base de datos. 
+Está constituida por todas las soluciones informáticas, legadas o no, del sostenimiento de la Armada. 
+Cada módulo gestiona uno o más procesos logísticos principales (ingeniería, mantenimiento, aprovisionamiento, transporte, etc.).  
+El Módulo de Aprovisionamiento ya cumple con la arquitectura objetivo. 
+4.3.2. Plataforma SIL de gestión integral del sostenimiento 
+
+Figura 2. Plataforma SIL de gestión integral del sostenimiento a desarrollar. 
+A través del mantenimiento evolutivo realizado en los diferentes Contratos Basados efectuados, las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves, irán evolucionando hacia una única solución modular y escalable, con una arquitectura objetivo, basada en un mismo framework y gestor de bases de datos, quedando integradas en lo que se denominará Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+Este módulo se caracterizará principalmente porque:  
+- Será la evolución de las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves en la Plataforma Logística SIL de la Armada. 
+- Integrará las funcionalidades y datos de mantenimiento e ingeniería del ciclo de vida, conforme a los requisitos establecidos en el ANEXO I del presente PPT. 
+- Se ajustará a la arquitectura objetivo y al diseño de la interfaz de usuario establecida para el Módulo de Aprovisionamiento 
+- Tendrá nuevos diseños funcionales y de base de datos optimizados, resultantes de un análisis profundo que permita detectar y dar solución a duplicidades, funcionalidades infrautilizadas, datos obsoletos, erróneos, históricos, etc. 
+- Será escalable al resto de funcionalidades de los módulos de la Plataforma Logística SIL con objeto de avanzar hacia una única solución modular. 
+- Hasta la finalización del desarrollo del Módulo, convivirán en la Plataforma las nuevas funcionalidades desarrolladas con las de las aplicaciones legadas e intercambiarán información a través de una capa de sincronización. 
+- Será un único producto que se instalará en dos tipos de entornos de producción en la I3D: un entorno  central en servidores de CESTIC que dará servicio a los usuarios en instalaciones fijas en la I3D (central); otros entornos desplegados en los servidores de los buques1, que darán servicio a sus usuarios embarcados (desplegado). 
+- El conjunto de funcionalidades a las que tendrá acceso un usuario dependerá de su rol y permisos asignados. De esta forma, por ejemplo, un rol exclusivo de primer escalón no tendrá acceso a funcionalidades propias de un segundo escalón, independientemente de si se trata del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida central o de los desplegados. 
+- Dispondrá de un cuadro de mando, ajustado al rol del usuario, que permita la representación simplificada de un conjunto de indicadores para poder medir el comportamiento de los procesos logísticos, y que facilite la toma decisiones, y la identificación rápida de cambios relevantes. 
+- Dispondrá de funcionalidades que permitan el autoaprendizaje para el adiestramiento del usuario. 
+- Se desarrollará una interfaz de comunicación que permita el intercambio de información entre la parte central del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida y las diferentes instalaciones desplegadas. Dicha comunicación gestionará de forma eficiente el ancho de banda disponible del enlace por satélite, aprovechando las franjas de mayor cobertura y menor demanda por otros sistemas del buque. 
+- La parte desplegada será autónoma en escenarios de conectividad nula y procederá a la armonización de datos cuando se recupere la conectividad. 
+- Cuando el buque se encuentre en puerto y pueda conectarse a la I3D por otra vía de comunicación con mayor ancho banda, se podrán realizar las actualizaciones de versión, datos maestros y demás datos de explotación. 
+- La interfaz gráfica de usuario estará diseñada para su uso tanto en estaciones de trabajo como en tabletas y teléfonos inteligentes. 
+A continuación, se describen las prestaciones del alcance del Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida de la Plataforma Logística SIL de la Armada que podrán incluir los Contratos Basados. 
+Debido a que se abordará un desarrollo incremental de la solución y no de tipo Big Bang, las fases de especificación de requisitos, análisis, diseño, desarrollo, verificación y validación, integración del incremento de producto se repetirán por cada Sprint. 
+4.3.3. Planes del Contrato 
+La Empresa contratista entregará al RCA para su aprobación todos o parte de los planes siguientes, según se requieran los Contratos Basados, y los mantendrán actualizados durante la vigencia de estos:  
+- PGC (Plan de Gestión del Contrato), que incluirá el calendario inicial con el detalle de las actividades e hitos principales, así como un Procedimiento de Control de Cambios al proyecto de desarrollo.  
+- PC (Plan de Calidad), que incluirá la descripción del producto. 
+- PECD (Plan Específico de Calidad de Datos), que describirá los procesos ETL (Extract, Transform and Load) así como las herramientas que se pondrán a disposición del RCA y el AT para verificar el progreso y calidad de los datos migrados y el histórico que no se migre y quede almacenado exclusivamente para su consulta. 
+- PAGR (Plan de Análisis y Gestión de Riesgos), que incluirá el registro de riesgos y el plan de mitigación de estos. 
+- PSI (Plan de Seguridad de la Información), que incluirá las medidas de seguridad activas, preventivas o reactivas para dar respuesta a situaciones en que se produzca un fallo, reduciendo su impacto. Tendrá que especificar todos los requisitos de seguridad para una solución software que se va a ejecutar en un entorno NO clasificado y en uno Clasificado RESERVADO. 
+- PD (Plan de Documentación), que describirá las actividades planificadas para la elaboración de la documentación de producto descrita en el epígrafe 4.3.7. 
+- PGConf (Plan de Gestión de la Configuración), que describirá las actividades planificadas para mantener la integridad de los incrementos de producto y producto final, que se obtienen a lo largo del desarrollo del Acuerdo Marco en los distintos Contratos Basados, garantizando que no se realicen cambios incontrolados y que todos los participantes en el desarrollo disponen de la versión adecuada de los productos que manejen. 
+- PS (Plan de Sprint2), que incluirá la planificación de un Sprint (iteración) para producir un incremento de producto (ver epígrafe 4.3.6.5). Se redactará un PS por cada Sprint hasta el producto final.  
+- PFA (Plan de Formación y Adiestramiento), que incluirá la planificación de las actividades de formación de administradores y usuarios que se llevarán a cabo en la fase de formación descrita en el epígrafe 4.3.6.8. 
+4.3.4. Entregables 
+Tienen la consideración de entregables: 
+- Los planes del contrato requeridos en cada Contrato Basado. 
+- El Documento de Planificación descrito en el epígrafe 4.3.6.1. 
+- La documentación de producto recogida en el epígrafe 4.3.7. 
+- Los informes de resultados de las pruebas. 
+- Los estudios o informes que el RCA acuerde con el DP. 
+- El código fuente de cada Sprint y del producto final. 
+- Herramienta (indicadores o cuadros de mando) para el seguimiento del progreso y calidad del producto en desarrollo. - Las licencias SW suministradas. 
+4.3.5. Metodología de desarrollo 
+La empresa contratista desarrollará los trabajos asumiendo los 12 principios del manifiesto para el desarrollo de SW ágil (Agile Manifesto) en la ejecución de cada Contrato Basado. 
+La empresa contratista propondrá al RCA, para su aprobación, la metodología ágil a adoptar para el desarrollo software la cual podrá ser adaptada convenientemente al proyecto. 
+La metodología ágil adoptada se basará en:  
+- El desarrollo incremental de los requisitos por bloques temporales cortos y fijos. 
+- Se dará prioridad a lo que tiene más valor para el RCA según la Pila de Producto. 
+- El equipo de desarrollo se sincronizará diariamente y se realizarán las adaptaciones necesarias. 
+- Tras cada Sprint se mostrará al RCA el resultado real obtenido conforme a las validaciones y definición de “Hecho” acordadas, para que éste tome las decisiones necesarias en relación con lo observado. 
+- El RCA dará al ED la autoridad que considere necesaria para poder cumplir los requisitos. 
+- Se fijarán tiempos máximos para lograr objetivos. 
+El RCA representará el rol de Propietario del Producto, el AT asumirá el rol de facilitar la aplicación de la metodología y la gestión de cambios a lo largo de cada Contrato Basado y el ED ejecutará la prestación objeto de estos.  
+La empresa contratista construirá la solución final de forma incremental por bloques funcionales conforme a la planificación de los objetivos que el RCA establezca durante la ejecución de los Contratos Basados. 
+Los requisitos asociados a cada bloque funcional constituirán la Lista de Producto específica para dicho bloque, la cual será gestionada por el RCA.  
+Los elementos de la Pila de Producto que formarán el alcance definitivo del Sprint se determinarán durante la reunión de planificación del Sprint y serán acordados entre el RCA y el CT.  
+Tras la reunión anterior, la Empresa contratista entregará al RCA, para su aprobación, el PS que incluirá además los criterios de aceptación de los objetivos/requisitos acordados con el RCA. 
+Posteriormente, la empresa contratista entregará al RCA, para su revisión y aprobación, el Plan de Pruebas y el Protocolo de Pruebas referidos en los epígrafes 4.3.7.9 y 4.3.7.10, respectivamente. El RCA podrá incluir nuevas pruebas de aceptación que normalmente serán realizadas por el AT en el entorno de preproducción.  
+Durante el Sprint, el ED creará un incremento de producto que tendrá que cumplir la Definición de “Hecho” acordada entre el RCA y el CT al inicio y/o durante la ejecución del Contrato Basado. En el caso de no acordar alguna, se aplicará la siguiente Definición de “Hecho” en cada Sprint: 
+- El trabajo de todos los miembros del ED tiene que estar totalmente integrado en cada Sprint. 
+- El trabajo de cada miembro del ED ha sido revisado por al menos otro miembro del equipo. 
+- Todo el ED considera que para cada objetivo/requisito se cumplen sus Criterios de Aceptación, acordados entre el RCA y el CT antes de la planificación del Sprint. 
+- El producto tiene que estar probado (calidad externa, usabilidad, funcionalidad, seguridad) siguiendo el Plan de Pruebas y el Protocolo de Pruebas referidos en los epígrafes 4.3.7.9 y 4.3.7.10, respectivamente. 
+- El producto sigue los estándares de calidad interna y ha sido refactorizado para conseguir mantenibilidad. 
+- La documentación de producto referida en los epígrafes 4.3.7.1 a 4.3.7.8 tiene que estar actualizada. 
+- El RCA, con ayuda del AT, ha validado y aceptado los objetivos/requisitos. 
+4.3.6. Descripción de la prestación 
+4.3.6.1. 	Estudio y planificación inicial 
+La empresa contratista realizará un estudio de los requisitos y de las aplicaciones legadas que correspondan, (HW (hardware), SW, telecomunicaciones, bases de datos y almacenes de datos y procedimientos, número de usuarios, etc.) con objeto de identificar, entre otros: 
+- Requisitos críticos 
+- Funcionalidades infrautilizadas  
+- Funcionalidades poco eficientes (muchos pasos para su ejecución completa) que puedan simplificarse o dividirse 
+- Funcionalidades agrupables en la misma pantalla de gestión  - 	Datos obsoletos, históricos, temporales, erróneos, … - 	Arquitectura, entornos de producción, etc. 
+La empresa contratista plasmará la información anterior en un Documento de Planificación que además incluirá: 
+- Una propuesta preliminar de arquitectura de los elementos, los bloques funcionales a desarrollar, así como aspectos críticos remarcables. 
+- La Lista de Producto inicial para aprobación y gestión por el RCA. 
+- La propuesta de herramienta de indicadores para el seguimiento del progreso del producto en desarrollo indicada en el epígrafe 4.3.4. 
+Al finalizar esta fase, la Empresa contratista tendrá una planificación inicial de actividades y entregará los planes: PGC, PC, PECD, PAGR, PSI, PD y PGConf. 
+4.3.6.2. 	Especificación de requisitos 
+La empresa contratista realizará la especificación de requisitos de cada incremento de producto y lo plasmará en el Documento de Especificación del Sistema (véase el epígrafe 4.3.7.5). 
+Este documento será consensuado entre el RCA y el CT, tendrá carácter contractual, de forma que cualquier cambio que se desee realizar en él en los distintos Contratos Basados, una vez acordada la primera línea base, deba aplicarse siguiendo el Procedimiento de Control de Cambios establecido en el proyecto. 
+4.3.6.3. 	Análisis 
+La empresa contratista proporcionará el modelo de análisis del sistema, en el que, de una manera formal, se plasmará el comportamiento de los Módulos a desarrollar y se detallarán los datos con los que trabajará y las transformaciones y procesos que sufrirán dichos datos para satisfacer los requisitos establecidos 
+4.3.6.4. 	Diseño 
+La empresa contratista realizará el diseño y arquitectura de la solución de forma incremental por cada bloque funcional. 
+Identificará las soluciones potenciales, las evaluará y elegirá la más conveniente, que será la que arroje una ratio mejor entre eficacia, coste y complejidad.  
+Presentará al RCA el diseño de cada incremento de producto a desarrollar para su revisión y posterior aprobación. 
+4.3.6.5. 	Desarrollo 
+La empresa contratista desarrollará el software de conformidad con el diseño aprobado e informará al RCA de los posibles problemas, contratiempos o dificultades encontradas, así como de las propuestas de rediseños parciales para que pueda tomar la decisión más adecuada. 
+El desarrollo se llevará a cabo de acuerdo con la SOA (Arquitectura Orientada a Servicios) del MINISDEF, en el entorno de desarrollo cuyas características aproximadas se recogen en el II.2.  
+4.3.6.6. 	Verificación y Validación 
+La empresa contratista ejecutará los procesos de comprobación que aseguren que el producto desarrollado está acorde a su especificación y cumplan las necesidades manifestadas por el RCA. 
+La verificación servirá para comprobar que se cumplen los requisitos funcionales y no funcionales especificados, que deberán ser trazados con los Casos de Prueba correspondientes. 
+La validación será un proceso más general y, a diferencia de la verificación, servirá para asegurar que se cumplan las expectativas manifestadas por el RCA y que el producto realice lo que el usuario espera. 
+Podrá ser necesario repetir las pruebas tantas veces como sea necesario hasta que se realicen satisfactoriamente. En ese momento se entregará al RCA un informe de Verificación y Validación que informará las pruebas realizadas, resultados y servirá para demostrar el éxito de estas.  
+El RCA podrá determinar que el AT realice sus propias verificaciones y/o validaciones en el entorno de preproducción, con objeto de dar su aprobación para la posible puesta en servicio en el entorno de producción. 
+4.3.6.7. 	Puesta en servicio 
+La gestión de los Módulos desarrollados se centralizará en la JAL para ser operable dentro de la I3D y manejará información de distintos dominios de clasificación. La empresa contratista instalará en producción tanto el SW como el HW (si fuera necesario) de los bloques funcionales finalizados y probados, si así lo determina el RCA.  
+En el caso de que la instalación fuera realizada por personal del MINISDEF, la Empresa contratista deberá prestar el apoyo técnico que se la requiera.  
+Asimismo, la empresa contratista entregará la documentación de producto actualizada, así como un Plan de Formación, para su aprobación por el RCA, que contemple las acciones de formación necesarias para capacitar a los usuarios y administradores de los Módulos desarrollados en su uso. 
+Además, la empresa contratista supervisará especialmente la calidad de los datos migrados y generados. 
+4.3.6.8. 	Formación 
+La empresa contratista entregará y ejecutará el Plan de Formación y Adiestramiento conforme a los requisitos establecidos en el epígrafe I.2.4 del  ANEXO I. 
+4.3.6.9. 	Soporte y mantenimiento inicial 
+La Empresa contratista realizará los ajustes necesarios para mejorar el rendimiento y corregir los problemas que puedan surgir tras la puesta en producción de cada versión.  
+Una vez concluya la implementación de la solución final existirá un periodo de operación supervisada. Durante este periodo, la Empresa contratista realizará el soporte y mantenimiento inicial propiamente dicho que cobrará especial importancia y que comprenderá: 
+- Resolver fallos e incidencias. 
+- Optimizar el sistema para cuestiones relacionadas con la seguridad o el rendimiento. 
+- Revisar el SW para garantizar la alineación con los requisitos del Contrato Basado que corresponda. 
+- Actualizar la documentación del producto. - 	Dar soporte a los usuarios. 
+4.3.6.10. 	Provisión de licencias SW 
+La empresa contratista proveerá todas las licencias SW que su ED necesite para poder ejecutar la prestación objeto del Contrato Basado conforme a los requisitos de éste y aquellos otros que se acuerden durante su ejecución.  
+Además, la empresa contratista pondrá a disposición del MINISDEF su propio equipamiento informático, para que, en cumplimiento de la política de seguridad del MINISDEF, puedan ser integrados en el domino \MDEF. 
+4.3.7. Documentación 
+Al finalizar la Fase de Estudio y Planificación Inicial, la empresa contratista generará la estructura de los documentos que se enumeran en este apartado y que se requieran en los Contratos Basados, entendiendo como estructura el índice de cada documento, o los actualizará si ya han sido generados en Contratos Basados previos. 
+Al finalizar cada Sprint se actualizará la documentación que se enumera en este apartado. Esta documentación será incremental con respecto a la documentación aportada en los Sprints previos, realizando en su caso las modificaciones correspondientes. Al final del proyecto se entregará la documentación completa. 
+Toda la documentación estará accesible para su edición, consulta, revisión y actualización, formando así parte del Sprint. 
+Se utilizará una herramienta de modelado UML (Unified Modeling Language) para documentar las fases del ciclo de vida de desarrollo del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+4.3.7.1. 	Documento de descripción de versión 
+Documento generado por cada Sprint de los Módulos a desarrollar que contendrá una descripción de las funcionalidades de estos e incluye: 
+• Identificación del Sprint 
+• Identificación y descripción del material distribuido. 
+• Identificación y descripción de las funcionalidades, así como de los requisitos y casos de uso a implementar. 
+• Procedimiento de instalación (referencia al Manual de Instalación). 
+• Documentación aplicable al Sprint distribuido. 
+4.3.7.2. 	Manual de usuario 
+Manual que se describirá el uso de las funcionalidades incluidas en cada Sprint del Módulo de los módulos a desarrollar para cada tipo de usuario. Incluirá los diagramas e imágenes necesarios para facilitar su entendimiento. 
+Deben generarse dos versiones de este manual, una documental y otra integrada en el módulo para un acceso contextualizado a los elementos de ayuda desde los propios módulos a desarrollar. 
+4.3.7.3. 	Manual de instalación 
+Manual que proporcionará las instrucciones y prerrequisitos para la instalación del Módulos a desarrollar, así como los procesos de configuración, verificación y carga inicial de datos aplicables, caso de ser necesarios. 
+4.3.7.4. 	Procedimiento de seguridad y control de acceso 
+Documento que especificará las políticas de seguridad que aplican a la instalación y uso de los Módulos a desarrollar y las tareas de administración de usuarios (alta y baja de usuarios, perfiles de usuario). También se describirán los procesos relacionados con la integridad y seguridad de la información. 
+El documento incluirá información relativa a: 
+• Cumplimiento de la normativa del MDEF sobre aplicaciones clasificadas como RESERVADO. 
+• Tipos de usuario y perfiles asociados 
+• Acceso al sistema y a sus recursos 
+• Control y registro de accesos al sistema 
+• Mantenimiento de la integridad y confidencialidad de la información  
+• Copias de seguridad y recuperación de datos, así como su periodicidad 
+• Recuperación ante catástrofes 
+4.3.7.5. 	Especificación del sistema 
+Documento que proporcionará la información necesaria para especificar el comportamiento requerido de los Módulos a desarrollar y que se obtendrá tanto de los requisitos contenidos en este PPT que se incorporen en los Contratos Basados como los resultantes de los subsiguientes procesos de refinamiento de dichos requisitos durante el ciclo de vida de los Módulos a desarrollar. 
+Este documento servirá como medio de comunicación entre el RCA, AT, usuarios, ingenieros de requisitos y desarrolladores. 
+4.3.7.6. 	Análisis del sistema 
+Documento que proporcionará el modelo de análisis del sistema, en el que de una manera formal se plasmará el comportamiento requerido de los Módulos a desarrollar y se detallan los datos con los que trabajará y las transformaciones y procesos que sufrirán dichos datos para satisfacer los requisitos establecidos. 
+4.3.7.7. 	Diseño detallado 
+Documento que proporcionará el modelo de diseño del sistema, en el que se especificará formalmente la implementación requerida de los Módulos a desarrollar, detallando los procesos, las interfaces (modelos de información y mecanismos de intercambio), los estados y la transición entre ellos, la interfaz de usuario, el modelo de datos y todas aquellas transiciones de datos que hayan de realizarse entre sistemas legados, el Módulo de Mantenimiento e Ingeniería del Ciclo de Vida y otros sistemas. 
+4.3.7.8. 	Diseño de las bases de datos 
+Documento que proporcionará información detallada de la estructura de base de datos diseñada para alojar los datos de los Módulos a desarrollar. Deberá incluir los modelados lógico y físico de la base de datos, así como información sobre todos los elementos que los componen. 
+4.3.7.9. 	Plan de Pruebas 
+Documento que proporcionará información de los objetivos de la prueba de los Módulos a desarrollar. Establecerá y coordinará una estrategia de trabajo, y proveerá el marco adecuado para elaborar una planificación paso a paso de las actividades de prueba. 
+El plan se iniciará en el proceso Análisis, definiendo el marco general, y estableciendo los requisitos de prueba de aceptación, relacionados directamente con la especificación de requisitos. 
+Este plan se irá completando y detallando a medida que se avance en los restantes procesos del ciclo de vida del sistema. 
+Se plantean los siguientes niveles de prueba: 
+• Pruebas unitarias. 
+• Pruebas de integración. 
+• Pruebas del sistema. 
+• Pruebas de implantación. 
+• Pruebas de aceptación. 
+4.3.7.10. 	Protocolo de Pruebas 
+Documento que describirá los Casos de Prueba de las funcionalidades incluidas en cada Sprint de los Módulos a desarrollar de acuerdo con la estrategia de trabajo definida en el Plan de Pruebas. Los Casos de Prueba deberán estar convenientemente trazados con los requisitos de este PPT que se incorporen a los Contratos Basados, los requisitos del sistema y los Casos de Uso incluidos en cada Sprint. 
+4.3.8. Requisitos técnicos 
+En el ANEXO I se recogen los requisitos de alto nivel del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida, que se dividen en Funcionales y No Funcionales, con objeto de que la Empresa contratista tenga una idea clara del producto final que se pretende conseguir. 
+Los requisitos Funcionales describen la interacción entre el sistema y su ambiente, independientemente de su implementación. El ambiente incluye a los usuarios y cualquier otro sistema externo que interactúe con éste. 
+Los requisitos No Funcionales describen aspectos del sistema que no incluyen una relación directa con el comportamiento funcional del sistema. Comprenden restricciones como el tiempo de respuesta, la precisión o los recursos consumidos. 
+Por la complejidad de la solución final, no ha sido posible definir una solución completa definitiva, por tanto, los contratos basados, en función de su alcance, podrán incorporar los requisitos del ANEXO I que consideren necesarios, así como otros similares o nuevos siempre que no varíen el objeto del contrato. 
+5. GESTIÓN DE CAMBIOS 
+En todas las actividades objeto del contrato se seguirán las buenas prácticas descritas en la referencia y) que describe la gestión del proceso de mantenimiento, establece las definiciones de los diferentes tipos de mantenimiento y proporciona una guía para la planificación, ejecución y control, revisión, evaluación y cierre del proceso de mantenimiento. 
+Este estándar proporciona directrices en la gestión del proceso de mantenimiento y se puede aplicar, tanto al proceso de desarrollo, como al de mantenimiento de sistemas de información. 
+Además, facilita un marco de actuación en el proceso de mantenimiento software, pero no especifica la manera de implementar las actividades y tareas incluidas en este proceso, así que, estas actividades y tareas deberán detallarse en los Planes de Gestión de Configuración de cada uno de los elementos objeto del contrato. 
+Las actividades de Gestión de Configuración se gestionarán y controlarán utilizando herramienta de modelado del ciclo de vida Enterprise Architect Sparx Systems. 
+6. EQUIPO DE DESARROLLO A EMPLEAR 
+6.1. Aspectos Generales 
+El licitador propondrá en su oferta un equipo de trabajo que permita abordar con garantías las tareas objeto del contrato. 
+La Armada, en modo alguno ni bajo ningún título ostentará la condición de empleador respecto de los trabajadores contratados por cuenta propia o ajena por el adjudicatario, que presten directa o indirectamente los servicios objeto del contrato. Dichos trabajadores dependerán directamente de la empresa contratada que estará obligada, respecto a estos, al cumplimiento de las disposiciones laborales vigentes, sin que del preceptivo contrato administrativo de servicios se pueda deducir relación laboral alguna, ni siquiera con carácter subsidiario, con el Ministerio de Defensa. 
+Los profesionales que, como equipo principal, sean  responsables de la ejecución  del trabajo, deberán disponer de la cualificación necesaria y de la titulación adecuada a la naturaleza  de los trabajos, así como conocimiento y experiencia en el sector. 
+La falsedad en el nivel de conocimientos técnicos del personal ofertado, deducida del contraste entre los valores especificados en la oferta y los conocimientos reales demostrados en la ejecución de los trabajos, implicará la sustitución del mismo, por parte del adjudicatario y, en su caso, la resolución del contrato. 
+No se podrán incluir personas con contrato comprometido con otra entidad pública o privada, para el mismo periodo de ejecución de esta contratación. La comprobación fehaciente de esta anomalía podrá significar la anulación del expediente. Se deberá acreditar la pertenencia a la empresa contratista mediante la presentación documento correspondiente. 
+Los miembros del equipo de trabajo deberán estar en posesión de la habilitación de seguridad con el grado de CONFIDENCIAL al inicio de la ejecución del contrato, de no ser así podrá resolverse el contrato. 
+El personal de la empresa contratista, asignado a cada Contrato Basado, trabajará desplazado en cliente conforme a lo indicado en el epígrafe 7. 
+6.2. Dimensionado del Equipo de Trabajo 
+Corresponde al adjudicatario el dimensionamiento y selección del equipo de trabajo. No obstante, en base a proyectos análogos y la experiencia adquirida hasta la fecha en el mantenimiento del sistema, se exige un dimensionamiento mínimo de distintas categorías a emplear en la presente contratación. 
+Se deberá tener en cuenta la posible necesidad de concentración de efectivos  en el  tiempo, según la  evolución de los trabajos, para lo cual el adjudicatario indicará  en su oferta la disponibilidad máxima de efectivos, dentro de los límites de la presente contratación. 
+El  RCA establecerá, con suficiente antelación, el calendario de servicio, teniendo en cuenta las necesidades y notificará al adjudicatario los periodos de máxima y mínima carga de trabajo  para que éste pueda optimizar los recursos necesarios para garantizar los servicios y así redistribuir las horas y la carga de trabajo a realizar entre los distintos perfiles profesionales o modificar el equipo de trabajo, aumentando el número de  personas, según el perfil necesitado en cada momento, siempre y cuando no se sobrepase el importe total del contrato  
+Según el análisis previamente realizado, los recursos requeridos son los siguientes: 
+• Mantenimiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada  
+Perfil Número de recursos Nº Horas  
+Máximo facturable 
+AÑO 2024 Nº Horas  
+Máximo facturable 
+AÑO 2025 Coordinador técnico 1 1760 1760 Técnico de Sistemas 1 1760 1760 Consultor  1 1760 1760 Analista  1 1760 1760 Analista Programador  1 1760 1760  
+• Mantenimiento de las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves 
+Perfil Número de recursos Nº Horas  
+Máximo facturable 
+AÑO 2024 Nº Horas  
+Máximo facturable 
+AÑO 2025 Coordinador técnico 1 1760 1760 Analista Programador 8 1760 1760  
+• Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida de la Plataforma Logística SIL de la Armada  
+Perfil Número de recursos Nº Horas  
+Máximo facturable 
+AÑO 2024 Nº Horas  
+Máximo facturable 
+AÑO 2025 Coordinador técnico 1 1760 1760 Técnico de Sistemas 1 1760 1760 Consultor ETL 1 1760 1760 Consultor WS Réplica 1 1760 1760 Analista .NET 4 1760 1760 Analista Programador .NET 4 1760 1760 Analista Programador WebServices 1 1760 1760 Programador.NET 7 1760 1760  
+6.3. Descripción de Perfiles 
+A continuación, se describen los perfiles profesionales necesarios para el desarrollo de las tareas descritas en cada prestación de este Pliego. Por cada uno de ellos se detalla el conocimiento técnico, la experiencia y las capacidades necesarias. 
+6.3.1. Perfiles para el Mantenimiento del Módulo de Aprovisionamiento de la Plataforma Logística SIL de la Armada 
+6.3.1.1. 	Coordinador técnico 
+6.3.1.1.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.1.1.2 Coordinación 
+- Experiencia superior a 3 años en la coordinación de equipos de desarrollo en proyectos relacionados con sistemas de gestión del sostenimiento. 
+
+Experiencia en gestión de proyectos desarrollados en Linux / Windows 
+6.3.1.1.3 Metodologías 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Conocimientos y Formación en Scrum (Metodología Ágil). 
+- Experiencia superior a un año en la herramienta de modelado del ciclo de vida Enterprise Architect de Sparx Systems 
+- Experiencia superior a 2 años en el uso del lenguaje de modelado unificado UML - Experiencia en coordinación de proyectos con Sistemas de Control de Versiones (CVS). 
+- Experiencia superior a 3 años en la especificación de requisitos. 
+- Experiencia superior a 3 años en gestión de proyectos con herramientas de generación de informes. 
+6.3.1.2. 	Técnico de Sistemas 
+6.3.1.2.1 Formación Base: 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 3 años 
+6.3.1.2.2 Administración 
+- Experiencia superior a 2 años como Administrador de ASP.NET Core y C# 
+- Experiencia superior a 2 años como Administrador de CoreUI Bootstrap y Jquery 
+- Experiencia superior a 2 años como Administrador de herramientas de generación de informes. 
+- Experiencia superior a 2 años como Administrador de servidor web MS-IIS y Apache. 
+- Experiencia superior a 2 años como Administrador de Base de Datos SQL Server / RDBMS. 
+- Experiencia superior a 2 años como Administrador de herramientas de generación de cuadros de mando. 
+- Experiencia superior a 2 años como Administrador de SO Linux y Windows. 
+6.3.1.2.3 Otros 
+- Conocimientos de XML / XSLT 
+- Conocimientos de la herramienta de pruebas SoapUI. 
+- Conocimientos de WebServices (SOAP y RESTful). 
+- Conocimientos en Metodología Ágil 
+- Conocimientos de herramientas de generación de informes. 
+- Conocimientos de Sistemas de Control de Versiones (CVS). 
+6.3.1.3. 	Consultor  
+6.3.1.3.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.1.3.2 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Experiencia en herramientas ETL para el diseño e implantación de procesos ETL 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Conocimientos y Formación en Scrum (Metodología Ágil) 
+- Conocimientos en herramienta de modelado del ciclo de vida Enterprise Architect Sparx Systems 
+- Experiencia superior a 3 años en el uso del lenguaje de modelado unificado UML - 	Experiencia superior a 1 año en Sistemas de Control de Versiones (CVS). 
+6.3.1.3.3 Base de Datos 
+- Conocimientos y formación en SQL Server / RDBMS 
+6.3.1.3.4 Otros 
+- Experiencia superior a 3 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 3 años en WebServices (SOAP y RESTful) 
+- Experiencia superior a 3 años de herramientas de integración de aplicaciones. 
+6.3.1.4. 	Analista  
+6.3.1.4.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.1.4.2 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Conocimiento de herramientas ETL para el diseño e implantación de procesos ETL 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Experiencia superior a 2 años en Scrum (Metodología Ágil) 
+- Experiencia superior a 2 años en herramientas de modelado del ciclo de vida Enterprise Architect de Sparx Systems 
+- Experiencia superior a 3 años en el uso del lenguaje de modelado unificado UML 
+6.3.1.4.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 3 años en marco multiplataforma ASP.NET core / C# 
+- Experiencia superior a 3 años en CoreUI Bootstrap y Jquery 
+Experiencia superior a 3 años HTML5 + CSS3 
+- Experiencia superior a 3 años JS / AJAX 
+- Experiencia superior a 3 años T SQL 
+- Experiencia superior a 3 años XML / XSLT 
+- Experiencia superior a 3 años en Sistemas de Control de Versiones (CVS) 
+6.3.1.4.4 Base de Datos 
+- Experiencia superior a 3 años en SQL Server / RDBMS 
+6.3.1.4.5 Otros 
+- Experiencia superior a 3 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 3 años en WebServices (SOAP y RESTful) - 	Experiencia en herramientas de generación de cuadros de mando 
+- Experiencia superior a 3 años en herramientas de generación de informes 
+6.3.1.5. 	Analista Programador  
+6.3.1.5.1 Formación Base 
+- Ingeniero Técnico / Grado/ FP2 en Informática o similar 
+- Experiencia mínima 3 años 
+6.3.1.5.2 Metodologías 
+- Conocimiento de herramientas ETL para el diseño e implantación de procesos ETL - 	Conocimientos y Formación en Scrum (Metodología Ágil). 
+6.3.1.5.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 2 años en marco multiplataforma ASP.NET core / C# 
+- Experiencia en CoreUI Bootstrap y Jquery 
+- Experiencia superior a 2 años HTML5 + CSS3 
+- Experiencia superior a 2 años JS / AJAX 
+- Experiencia superior a 2 años T SQL 
+- Experiencia superior a 2 años XML / XSLT 
+- Experiencia superior a 2 años en Sistemas de Control de Versiones (CVS). 
+6.3.1.5.4 Otros 
+- Experiencia superior a 2 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 2 años en WebServices (SOAP y RESTful) - 	Experiencia en herramientas de generación de cuadros de mando 
+- Experiencia superior a 2 años en herramientas de generación de informes 
+6.3.2. Perfiles para el Mantenimiento de las aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves 
+6.3.2.1. 	Coordinador técnico 
+6.3.2.1.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.2.1.2 Coordinación 
+- Experiencia superior a 3 años en la coordinación de equipos de desarrollo en proyectos relacionados con sistemas de gestión del sostenimiento. 
+- Experiencia en gestión de proyectos desarrollados en Linux / Windows 
+- Experiencia en Gestión de Riesgos de proyectos 
+6.3.2.1.3 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Experiencia superior a un año en la herramienta de modelado del ciclo de vida Enterprise Architect de Sparx Systems 
+- Experiencia superior a 2 años en el uso del lenguaje de modelado unificado UML 
+6.3.2.1.4 Lenguajes y entornos de desarrollo 
+- Experiencia demostrable superior a 3 años en VB.NET y C#. 
+- Experiencia demostrable superior a 3 años en JavaScript. 
+- Experiencia demostrable superior a 3 años en T-SQL. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en HTML+CSS. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en XML. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en XSLT. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en PHP. 
+- Experiencia demostrable superior a 3 años en Visual Studio 2010 y .NET Framework 4 o versiones posteriores. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en Crystal Reports for Visual Studio. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en la técnica de desarrollo Asynchronous JavaScript And XML (AJAX). 
+- Experiencia superior a 1 año o conocimiento, demostrables, en el modelo de desarrollo Web unificado ASP.NET. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en la tecnología WebService. 
+6.3.2.1.5 Base de Datos 
+- Experiencia superior a 2 años en modelado de bases de datos relacionales. 
+Experiencia superior a 2 años en la elaboración de sentencias Data Definition Language (DDL) y Data Manipulation Language (DML) de SQL. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en SQL Server Report Server y SQL Server Analysis Services. 
+- Experiencia demostrable superior a 2 años en el diseño técnico del modelo de datos relacional con SQL Developer Data Modeler. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en SQL Server  2008 o versión posterior. 
+- Experiencia superior a 2 años o conocimiento, demostrables, en Microsoft SQL Server Management Studio y Microsoft Data Access Components (MDAC). 
+6.3.2.1.6 Otros 
+- Experiencia superior a 1 año o conocimiento, demostrables, en IIS 7.5 o versión posterior. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en ambos o alguno de los siguientes sistemas de control de versiones del software: Subversion o GIT. 
+6.3.2.1.7 Logística militar 
+- Experiencia superior a 2 años en proyectos donde se aplica el Sistema de Mantenimiento Programado (PMS Planned Maintenence System) basado en las publicaciones de la Naval Sea Systems Command (NAVSEA) 
+6.3.2.1.8 Idiomas 
+- Inglés nivel mínimo B2 MCER o FIRST o nivel equivalente TOEFL (61-79/173210/500-547) o IELTS (5.0/5.5/6.0) o Trinity Grades (7, 8, 9). 
+6.3.2.2. 	Analista Programador 
+6.3.2.2.1 Formación Base 
+- Ingeniero Técnico / Grado/ FP2 Superior en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.2.2.2 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Experiencia superior a un año en la herramienta de modelado del ciclo de vida Enterprise Architect de Sparx Systems 
+- Experiencia superior a 2 años en el uso del lenguaje de modelado unificado UML 
+6.3.2.2.3 Lenguajes y entornos de desarrollo 
+- Experiencia demostrable superior a 3 años en VB.NET, C#. 
+- Experiencia demostrable superior a 3 años en JavaScript. 
+- Experiencia demostrable superior a 3 años en T-SQL. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en HTML+CSS. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en XML. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en XSLT. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en PHP. 
+- Experiencia superior a 6 meses o conocimiento, demostrables, en WSDL. 
+- Experiencia demostrable superior a 3 años en Visual Studio 2010 y .NET Framework 4 o versiones posteriores. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en Crystal Reports for Visual Studio. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en SQL Server Report Server y  SQL Server Analysis Services. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en Entity Framework, ePPlus, jQuery y Winnovative Reporting Toolkit. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en la técnica de desarrollo Asynchronous JavaScript And XML (AJAX). 
+- Experiencia superior a 1 año o conocimiento, demostrables, en el modelo de desarrollo web unificado ASP.NET. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en la tecnología WebService. 
+- 	 
+6.3.2.2.4 Base de Datos 
+- Experiencia superior a 2 años en modelado de bases de datos relacionales. 
+- Experiencia superior a 2 años en la elaboración de sentencias Data Definition Language (DDL) y Data Manipulation Language (DML) de SQL. 
+- Experiencia demostrable superior a 2 años en el diseño técnico del modelo de datos relacional con SQL Developer Data Modeler. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en SQL Server  2008 o versión posterior. 
+- Experiencia superior a 2 años o conocimiento, demostrables, en Microsoft SQL Server Management Studio y Microsoft Data Access Components (MDAC). 
+- Experiencia superior a 1 año o conocimiento, demostrables, en Microsoft SQL Server Profiler. 
+6.3.2.2.5 Otros 
+- Experiencia superior a 1 año o conocimiento, demostrables, en IIS 7.5 o versión posterior. 
+- Experiencia superior a 1 año o conocimiento, demostrables, en ambos o alguno de los siguientes sistemas de control de versiones del software: Subversion o GIT. 
+- Experiencia o conocimiento, demostrables, en VisualSVN Server, Plugin AnkhVSN para Visual Studio y cliente TortoiseSVN para Windows. 
+
+6.3.2.2.6	Idiomas 
+- Inglés nivel mínimo B2 MCER o FIRST o nivel equivalente TOEFL (61-79/173210/500-547) o IELTS (5.0/5.5/6.0) o Trinity Grades (7, 8, 9). 
+6.3.3. Perfiles para el Mantenimiento evolutivo de las soluciones actuales de gestión del mantenimiento e ingeniería del ciclo de vida de la Plataforma Logística SIL de la Armada 
+6.3.3.1. 	Coordinador técnico 
+6.3.3.1.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.3.1.2 Coordinación 
+- Experiencia superior a 3 años en la coordinación de equipos de desarrollo en proyectos relacionados con sistemas de gestión del sostenimiento. 
+- Experiencia en gestión de proyectos desarrollados en Linux / Windows 
+- Experiencia en Gestión de Riesgos de proyectos 
+6.3.3.1.3 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Conocimiento de herramientas ETL para el diseño e implantación de procesos ETL 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Conocimientos y Formación en Scrum (Metodología Ágil). 
+- Experiencia superior a un año en la herramienta de modelado del ciclo de vida Enterprise Architect de Sparx Systems 
+- Experiencia superior a 2 años en el uso del lenguaje de modelado unificado UML 
+6.3.3.1.4 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 3 años en gestión de proyectos con HTML5 + CSS3 
+- Experiencia superior a 3 años en gestión de proyectos con JS / AJAX 
+- Experiencia en gestión de proyectos con T SQL 
+- Experiencia superior a 3 años en gestión de proyectos con XML / XSLT 
+- Experiencia en coordinación de proyectos con Sistemas de Control de Versiones (CVS). 
+- Conocimientos de herramientas de desarrollo agile. 
+- Experiencia superior a 3 años y formación en la herramienta de modelado del ciclo de vida Enterprise Architect. 
+- Experiencia superior a 3 años en la especificación de requisitos. 
+- Experiencia superior a 3 años en el uso del lenguaje de modelado unificado (UML). 
+6.3.3.1.5	Base de Datos 
+- Experiencia en gestión de proyectos con SQL Server / RDBMS 
+6.3.3.1.6 Otros 
+- Experiencia superior a 2 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 2 años en WebServices (SOAP y RESTful) 
+- Experiencia superior a 3 años en gestión de proyectos con herramientas de generación de informes. 
+- Experiencia superior a 3 años en proyectos con servidor web MS-IIS y Apache 
+6.3.3.2. 	Técnico de Sistemas 
+6.3.3.2.1 Formación Base: 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 3 años 
+6.3.3.2.2 Administración 
+- Experiencia superior a 2 años como Administrador de ASP.NET Core y C# 
+- Experiencia superior a 2 años como Administrador de CoreUI Bootstrap y Jquery 
+- Experiencia superior a 2 años como Administrador de herramientas de generación de informes. 
+- Experiencia superior a 2 años como Administrador de servidor web MS-IIS y Apache. 
+- Experiencia superior a 2 años como Administrador de Base de Datos SQL Server / RDBMS. 
+- Experiencia superior a 2 años como Administrador de herramientas de generación de cuadros de mando. 
+- Experiencia superior a 2 años como Administrador de SO Linux y Windows. 
+6.3.3.2.3 Otros 
+- Conocimientos de XML / XSLT 
+- Conocimientos de la herramienta de pruebas SoapUI. 
+- Conocimientos de WebServices (SOAP y RESTful). 
+- Conocimientos en Metodología Ágil 
+- Conocimientos de herramientas de generación de informes. 
+- Conocimientos de Sistemas de Control de Versiones (CVS). 
+6.3.3.3. 	Consultor ETL 
+6.3.3.3.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar 
+- Experiencia mínima 5 años 
+6.3.3.3.2	Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Experiencia en herramientas ETL para el diseño e implantación de procesos ETL 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Conocimientos y Formación en Scrum (Metodología Ágil) 
+- Conocimientos en herramienta de modelado del ciclo de vida Enterprise Architect Sparx Systems 
+- Experiencia superior a 3 años en el uso del lenguaje de modelado unificado UML 
+6.3.3.3.3 Lenguajes y entornos de desarrollo - Experiencia superior a 3 años HTML5 + CSS3 
+- Experiencia superior a 3 años JS / AJAX 
+- Experiencia superior a 3 años XML / XSLT 
+- Conocimientos y formación de T SQL 
+- Experiencia superior a 1 año en Sistemas de Control de Versiones (CVS). 
+- Conocimientos de herramientas de desarrollo agile. 
+6.3.3.3.4 Base de Datos 
+- Conocimientos y formación en SQL Server / RDBMS 
+6.3.3.3.5 Otros 
+- Experiencia superior a 3 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 3 años en WebServices (SOAP y RESTful) 
+- Experiencia superior a 3 años de herramientas de integración de aplicaciones. 
+6.3.3.4. 	Consultor WS Réplica 
+6.3.3.4.1 Formación Base 
+- Ingeniero Técnico / Grado en Informática o similar. 
+- Experiencia mínima 5 años 
+6.3.3.4.2 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Experiencia en proyectos sujetos al aseguramiento de la Calidad 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Conocimientos y Formación en Scrum (Metodología Ágil) 
+- Conocimientos en herramienta de modelado del ciclo de vida Enterprise Architect Sparx Systems 
+6.3.3.4.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 3 años XML / XSLT 
+- Experiencia superior a 3 años T SQL 
+6.3.3.4.4	Base de Datos 
+- Experiencia superior a 3 años SQL Server / RDBMS 
+6.3.3.4.5 Otros 
+- Experiencia superior a 3 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 3 años en WebServices (SOAP y RESTful) 
+- Experiencia superior a 2 años en herramientas de generación de cuadros de mando. 
+- Experiencia superior a 3 años en integración de aplicaciones. 
+6.3.3.5. 	Analista .NET 
+6.3.3.5.1 Formación Base 
+- Ingeniero Técnico / Grado Superior en Informática o similar  - 	Experiencia mínima 5 años 
+6.3.3.5.2 Metodologías 
+- Experiencia superior a 3 años en Diseño modelos de datos. 
+- Conocimiento de herramientas ETL para el diseño e implantación de procesos ETL 
+- Experiencia en Gestión de Riesgos de proyectos 
+- Experiencia superior a 2 años en Scrum (Metodología Ágil) 
+- Experiencia superior a 2 años en herramientas de modelado del ciclo de vida, por ejemplo, Enterprise Architect Sparx Systems 
+- Experiencia superior a 3 años en el uso del lenguaje de modelado unificado UML 
+6.3.3.5.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 3 años en marco multiplataforma ASP.NET core / C# 
+- Experiencia superior a 3 años en CoreUI Bootstrap y Jquery 
+- Experiencia superior a 3 años HTML5 + CSS3 
+- Experiencia superior a 3 años JS / AJAX 
+- Experiencia superior a 3 años T SQL 
+- Experiencia superior a 3 años XML / XSLT 
+- Experiencia superior a 3 años en Sistemas de Control de Versiones (CVS) 
+6.3.3.5.4 Base de Datos 
+- Experiencia superior a 3 años en SQL Server / RDBMS 
+6.3.3.5.5 Otros 
+- Experiencia superior a 3 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 3 años en WebServices (SOAP y RESTful) - 	Experiencia en herramientas de generación de cuadros de mando 
+- Experiencia superior a 3 años en herramientas de generación de informes 
+6.3.3.6. 	Analista Programador .NET 
+6.3.3.6.1 Formación Base 
+- Ingeniero Técnico / Grado/ FP2 Superior en Informática o similar - 	Experiencia mínima 3 años 
+6.3.3.6.2 Metodologías 
+- Conocimiento de herramientas ETL para el diseño e implantación de procesos ETL - 	Conocimientos y Formación en Scrum (Metodología Ágil). 
+6.3.3.6.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 2 años en marco multiplataforma ASP.NET core / C# 
+- Experiencia en CoreUI Bootstrap y Jquery 
+- Experiencia superior a 2 años HTML5 + CSS3 
+- Experiencia superior a 2 años JS / AJAX 
+- Experiencia superior a 2 años T SQL 
+- Experiencia superior a 2 años XML / XSLT 
+- Experiencia superior a 2 años en Sistemas de Control de Versiones (CVS). 
+6.3.3.6.4 Otros 
+- Experiencia superior a 2 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 2 años en WebServices (SOAP y RESTful) - 	Experiencia en herramientas de generación de cuadros de mando 
+- Experiencia superior a 2 años en herramientas de generación de informes 
+6.3.3.7. 	Analista Programador WebServices 
+6.3.3.7.1 Formación Base 
+- Ingeniero Técnico / Grado/ FP2 Superior en Informática o similar - 	Experiencia mínima 3 años 
+6.3.3.7.2 Metodologías 
+- Conocimientos y Formación en Scrum (Metodología Ágil). 
+6.3.3.7.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 2 años T SQL 
+- Experiencia superior a 2 años XML / XSLT 
+- Experiencia superior a 2 años en Sistemas de Control de Versiones (CVS). 
+6.3.3.7.4 Base de Datos 
+- Experiencia superior a 2 años en SQL Server / RDBMS 
+6.3.3.7.5 Otros 
+- Experiencia superior a 2 años en la herramienta de pruebas SoapUI 
+- Experiencia superior a 2 años en WebServices (SOAP y RESTful) - 	Experiencia de herramientas de generación de cuadros de mando 
+6.3.3.8. 	Programador.NET 
+6.3.3.8.1 Formación Base 
+- Ingeniero Técnico / Grado/ FP2 Superior en Informática o similar - 	Experiencia mínima 2 años 
+6.3.3.8.2 Metodologías 
+- Conocimientos y Formación en Scrum (Metodología Ágil) 
+6.3.3.8.3 Lenguajes y entornos de desarrollo 
+- Experiencia superior a 1 año en marco multiplataforma ASP.NET core / C# 
+- Experiencia en CoreUI Bootstrap y Jquery 
+- Experiencia superior a 1 año HTML5 + CSS3 
+- Experiencia superior a 1 año JS / AJAX 
+- Experiencia superior a 1 año T SQL 
+- Experiencia superior a 1 año XML / XSLT 
+- Experiencia superior a 1 año en Sistemas de Control de Versiones (CVS). 
+6.3.3.8.4 Otros 
+- Experiencia superior a 1 año en la herramienta de pruebas SoapUI 
+- Experiencia superior a 1 año en WebServices (SOAP y RESTful) 
+- Experiencia en herramientas de generación de cuadros de mando 
+- Experiencia en herramientas de generación de informes 
+6.4. Incorporación del Equipo de Trabajo 
+Al menos el 50% del número de recursos por perfiles del equipo de trabajo estimado en este Pliego deberán incorporarse en el plazo de 15 días desde la firma del Contrato. 
+El personal que se incorpore tras la formalización del Contrato/s deberá ser el ofertado por el/los adjudicatario/s. 
+6.5. Modificaciones en la composición del equipo de trabajo 
+La distribución de horas por perfil y ubicación, indicadas en el apartado 6.3, es una estimación para la elaboración de las ofertas por parte de los licitadores y, previa coordinación por ambas partes (RCA y DP), podrá estar sujeto a variaciones en función de las necesidades de un Contrato Basado en cada momento de su ejecución y cumplimiento del calendario y entregas planificadas en él. 
+En este sentido, la empresa contratista tendrá prevista la posibilidad de dedicar temporalmente más recursos humanos a un Contrato Basado en función de las necesidades.  
+De mutuo acuerdo entre las partes y para alcanzar los objetivos fijados en un Contrato Basado, se podrán realizar modificaciones, durante su ejecución, sobre los perfiles de los recursos descritos en el presente pliego y aportados por la empresa contratista. 
+La empresa contratista será responsable de mantener la estabilidad de los recursos asignados al Contrato Basado y, en caso de sustituciones, se hará cargo de la remuneración de las horas del trabajador sustituto hasta que alcance los conocimientos necesarios del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida en desarrollo, hecho que se determinará de mutuo acuerdo entre el RCA y el CT. 
+7. CENTRO DE TRABAJO, HORARIO, DESPLAZAMIENTOS Y MOVILIDAD 
+7.1. Centros de trabajo 
+El centro de trabajo de la Armada donde el personal de la empresa contratista prestará sus servicios de forma habitual será: 
+Dirección de Sostenimiento 
+Jefatura del Apoyo Logístico de la Armada Av. Pío XII, n° 83 
+Madrid 
+La empresa contratista se comprometerá a que su personal se adapte al horario laboral en vigor de centro de trabajo de la Armada donde desarrollen su actividad, garantizando el cumplimiento de las horas por perfil estipuladas en este PPT.  
+Asimismo, se comprometerá a aportar el tiempo de trabajo necesario para cubrir las necesidades de despliegue de nuevas versiones, de mantenimiento o restablecimiento del sistema ante un fallo catastrófico o caída del mismo aun fuera del calendario laboral. 
+Previo requerimiento del RCA, el personal de la empresa contratista se desplazará puntualmente a Rota, Madrid, diferentes bases o Arsenales de la Armada en territorio nacional, para facilitar la coordinación y ejecución de las actividades del contrato. 
+La Empresa contratista se comprometerá a que su personal desarrolle su actividad dentro de la I3D.  
+Previo requerimiento del RCA, el personal de la Empresa contratista se desplazará a otras ubicaciones nacionales, incluidas unidades embarcadas, como consecuencia de la ejecución de las actividades de cada Contrato Basado. 
+Previa autorización del RCA, el personal de la Empresa contratista podrá teletrabajar. 
+7.2. Desplazamientos obligatorios 
+El RCA podrá requerir un máximo de 36 viajes en territorio nacional, de duración no superior a 15 días por viaje y aplicable a toda la duración del contrato, siendo el esfuerzo total de 90 días-persona. Estos desplazamientos serán obligatorios para la empresa contratista y su valoración formará parte del precio total ofertado. Dichos límites podrán superarse de mutuo acuerdo con el contratista y si hay crédito suficiente. 
+8. CONDICIONES DE EJECUCIÓN DEL CONTRATO 
+8.1. Condiciones Generales. 
+Para la ejecución del Contrato, el adjudicatario se comprometerá a proporcionar los recursos, humanos y materiales ofertados. 
+Conforme a lo establecido en el art. 308.2 de la LCSP “A la extinción de los contratos de servicios, no podrá producirse en ningún caso la consolidación de las personas que hayan realizado los trabajos objeto del contrato como personal de la entidad contratante”. 
+8.2. Condiciones Específicas. 
+Todos los productos generados durante la ejecución del contrato, se entenderán formalmente entregados a la Armada una vez que éste haya emitido acta y certificado de aceptación de los mismos, de la cual deberá recibir copia el adjudicatario. 
+El incumplimiento por parte del adjudicatario de alguno de los puntos contemplados en el alcance y objeto del contrato supondrá motivo suficiente de resolución del contrato y suspensión de la obligación de pago del mismo por parte de la Armada. 
+8.3. Seguimiento del Contrato 
+Es responsabilidad de la Armada la supervisión de los trabajos, proponer las modificaciones convenientes o, en su caso, proponer la suspensión de los mismos si existiese causa suficientemente motivada. 
+El órgano de Contratación designará un RCA con el fin de velar por el cumplimiento de los trabajos exigidos y ofertados. 
+Dicho responsable podrá designar una Dirección Técnica del contrato pudiendo incorporar a la misma a las personas, que estime necesarias para verificar y evaluar todas las actuaciones sujetas a su competencia. 
+Los cometidos del Responsable serán los siguientes: 
+• Realizar un seguimiento continuado de la ejecución de la programación establecida para cada una de las prestaciones. 
+• Permitir y facilitar un intercambio de información, al más alto nivel, para conocer las necesidades expresadas por las partes. 
+• Estudiar aquellas peticiones de carácter extraordinario o que por su incidencia excedan de lo rutinario. 
+• Resolver todas aquellas dudas y discrepancias que pudieran surgir 
+• Elevar a la jefatura los asuntos cuya resolución exceda su ámbito de competencia. 
+8.4. Informes trimestrales de situación 
+El Contratista entregará, los informes de situación (IS) con periodicidad trimestral (con 5 días de antelación a las reuniones de seguimiento establecidas). Este informe de situación de la marcha del contrato estará estructurado en las siguientes partes: 
+• Estado y progreso de los trabajos (incluyendo las actividades realizadas hasta la fecha, las actividades adelantadas/retrasadas en relación con la planificación de paquetes de trabajo definidos y las actividades previstas para el período siguiente). 
+• Posibles riesgos y áreas críticas identificadas, así como si existen las propuestas de anulación o contención de riesgos, los responsables de su realización y los plazos de cumplimiento. 
+• Información adicional que considere necesaria al RCA del Ministerio de Defensa para el mejor seguimiento y control del contrato. 
+Si lo estima necesario el contratista podrá presentar informes adicionales de situación si se produjeran modificaciones en la planificación. En estos informes de situación el contratista deberá determinar de manera inequívoca las modificaciones/variaciones respecto a la planificación previa. 
+El RCA podrá solicitar a la empresa contratista, en cualquier momento, que presente informes complementarios a los de situación sobre asuntos específicos del contrato con el fin de estudiar con mayor profundidad aquellos aspectos que no queden suficientemente explicados en el informe de situación o bien que la Dirección Técnica estime que son relevantes para el desarrollo del Contrato. El Contratista deberá entregar los informes complementarios en un periodo máximo de 15 días. 
+8.5. Reuniones de seguimiento 
+Se celebrarán reuniones de seguimiento del contrato destinadas a revisar la situación del mismo y a analizar y resolver aspectos de índole técnica. 
+La periodicidad inicial de estas reuniones será trimestral. El RCA podrá convocar cuantas reuniones extraordinarias de seguimiento estime oportuno y en cualquier momento. 
+La convocatoria y propuesta de Orden del Día de la reunión, aparte de los aspectos generales, será responsabilidad del RCA, previa coordinación de la fecha con la empresa contratista. 
+Con una antelación de cinco días hábiles a la fecha de la reunión de seguimiento, el contratista deberá remitir el informe de situación del contrato al RCA, así como toda la documentación que prepare la empresa contratista para la misma. 
+La empresa contratista podrá proponer la inclusión en el Orden del Día de aquellos temas que desde su punto de vista desee se traten en la reunión. El RCA podrá incluirlos o no, según su criterio 
+Del desarrollo de todas estas reuniones, la empresa contratista levantará un borrador de acta de la reunión en el que se recogerán los acuerdos alcanzados, las acciones a realizar, los responsables de realizarlas y los plazos a cumplir, que someterá a aprobación del RCA. 
+8.6. Gestión de los trabajos 
+La empresa contratista no podrá establecer relaciones directas con ninguna persona u órgano de la Administración, con motivo de este contrato. Si por necesidad de los servicios contratados se necesitaran esos contactos, se harán siempre por el RCA o quien este designe. 
+Los roles del personal de la empresa contratista durante la ejecución del contrato, se limitarán a los especificados en este pliego y en ningún caso podrán asumir funciones propias de la Administración, tales como las de dirección de proyectos o su representación. 
+Todo el personal asignado al contrato, que preste sus servicios en emplazamientos del Ministerio de Defensa, deberá guardar la debida compostura, tanto en su comportamiento como indumentaria. 
+8.7. Documentación de los trabajos 
+La documentación generada durante la ejecución del contrato es de propiedad exclusiva de la Armada sin que el contratista pueda conservarla, ni obtener copia de la misma o facilitarla a terceros sin la expresa autorización de la Armada, que la daría en su caso previa petición formal del contratista con expresión del fin. 
+Toda la documentación se entregará en español, correctamente encuadernada y con la cantidad de copias que se determinen para cada documento. Asimismo, se entregará dicha documentación en el soporte magnético que se acuerde para facilitar el tratamiento y reproducción de los mismos.  
+El adjudicatario deberá suministrar a la Armada las nuevas versiones de la documentación que se vayan produciendo. También se entregará, en su caso, los documentos sobre los que se ha basado el desarrollo en idéntico soporte a los anteriores. 
+8.8. Garantía de los trabajos 
+La empresa contratista deberá garantizar los trabajos realizados bajo este contrato durante el plazo de un (1) año a contar desde la fecha de su recepción. 
+8.9. Propiedad intelectual 
+La empresa contratista acepta expresamente que los derechos de propiedad sobre la documentación, aplicaciones informáticas o programas desarrollados ad-hoc y generados en el ámbito de este contrato corresponden al Ministerio de Defensa. 
+Queda por lo tanto expresamente prohibida la conservación, utilización, reproducción o difusión, fuera del objeto contractual del presente contrato, por cualquier persona física o jurídica, de todo o parte tanto de los productos y documentación entregada por el Ministerio de Defensa para el cumplimiento de las obligaciones derivadas del presente contrato, como de los productos generados por el proyecto, bien sean entregables o productos intermedios de trabajo. Para ello se requiere el consentimiento escrito del Ministerio de Defensa a través de los responsables correspondientes o personas que queden oficialmente identificadas a tal fin. 
+El Ministerio de Defensa podrá reproducir, publicar, modificar y divulgar, total o parcialmente, todos los productos y entregables elaborados durante la ejecución del presente contrato sin que pueda oponerse a ello el/los adjudicatarios/s y/o autor/es de los trabajos. 
+Específicamente, todos los derechos de explotación y titularidad de las aplicaciones informáticas y programas de ordenador desarrollados al amparo del contrato resultante de la adjudicación del presente contrato, incluyendo su código fuente, corresponden únicamente a la organización contratante. 
+9. ASEGURAMIENTO DE LA CALIDAD 
+De conformidad con la Resolución 320/15555/2011, de 29 de septiembre, del Director General de Armamento y Material (BOD nº 199/2011), los Contratos Basados efectuados al amparo del presente Acuerdo marco NO estarán sujetos al aseguramiento oficial de la calidad por la Dirección General de Armamento y Material, por ajustarse al punto tercero de la citada resolución, debido a que comprende servicios con valoración de horas por las contraprestaciones realizadas. 
+No obstante, a lo anterior, la empresa empresa contratista aplicará un sistema de gestión de calidad acorde con las Publicaciones Españolas de la Calidad, PECAL 2110 y 2210, o AQAP equivalentes, y acorde con cada Contrato Basado. 
+El RCA podrá solicitar a la empresa empresa contratista toda la información que estimen conveniente relativa al sistema de gestión de calidad y su aplicación a cada Contrato Basado. 
+10. CONDICIONES GENERALES DE LEGISLACIÓN 
+En caso de contradicción entre los requisitos del PPT y los de cualquier documento anexo o referenciado (a excepción del PCAP), tendrá prioridad el PPT. 
+De todos los documentos mencionados en este PPT será de aplicación la última edición, incluyendo todas las modificaciones introducidas hasta la fecha de la firma del presente contrato. 
+10.1. Compatibilidad con el protocolo IPv6 
+“Todo sistema (hardware, software, fimware, etc) o servicio relacionado directa o indirectamente con la transmisión, manipulación o procesamiento de información por medio del protocolo IP, independientemente del régimen bajo el cual se regule la relación con dicho elemento (adquisición, desarrollo, explotación, contratación, etc.), debe ser capaz de operar plenamente de acuerdo a los estándares comerciales establecidos para el protocolo “IPv6” y a los aspectos definidos en el RFC 2460 (Internet Protocol Version 6 Specification) y el resto de RFC relacionados con “IPv6”. 
+En esta circunstancia, el sistema o servicio debe mantener o mejorar los niveles de servicio, calidad y confianza preestablecidos, tanto con el protocolo “IPv4” como con “IPv6”, asimismo, la empresa empresa contratista del contrato deberá aportar, durante el periodo de garantía establecido o el que se marque en este Pliego, soporte técnico para ambos protocolos. 
+Para cualquier excepción al uso o compatibilidad con “IPv6” será necesaria autorización explícita por parte del Órgano de Contratación. 
+Madrid, a 7 de Febrero de 2023 
+El Teniente Coronel, Jefe Sección Técnica Aplicaciones Logísticas - DISOS 
+ 
+ 
+- Narciso Lasso de la Vega Borja –  
+ANEXO I. REQUISITOS TÉCNICOS DEL MÓDULO DE MANTENIMIENTO E INGENIERÍA DEL CLICLO DE VIDA DE LA PLATAFORMA SIL 
+I.1. REQUISITOS FUNCIONALES 
+I.1.1. 	GENERAL 
+I.1.1.1. ADMINISTRACIÓN Y SOPORTE 
+I.1.1.1.1. GESTIÓN DE ACCESO 
+REQ1. 	 	El acceso al Módulo de Mantenimiento e Ingeniería del Ciclo de Vida se realizará a través del Portal Único de Acceso al Sistema de Información Logística. 
+I.1.1.1.1.1. AUTENTICACIÓN 
+REQ2. 	 	El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida utilizará la gestión de acceso proporcionada por DISOS, para gestionar la entrada a través de DICODEF (Directorio Corporativo de Defensa). Salvo necesidad expresa cumplirá el concepto de “Single Sign On”. 
+I.1.1.1.1.2. AUTORIZACIÓN 
+REQ3.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida utilizará la gestión de acceso proporcionada por DISOS, para gestionar los distintos perfiles de usuario con diferentes niveles de acceso a la información. 
+I.1.1.1.1.3. SOLICITUDES DE ACCESO 
+REQ4.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá la generación de solicitudes de alta. 
+REQ5.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida mantendrá un registro de solicitudes de alta en el sistema y posibilitará su tramitación. 
+I.1.1.1.2. COMUNICACIONES 
+REQ6.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá el almacenamiento y consulta de los boletines de novedades emitidos en el sistema para los usuarios. 
+I.1.1.1.2.1. NOTIFICACIONES DE USUARIO 
+REQ7.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá la generación y el trámite de notificaciones de usuario en el sistema. REQ8.  Una notificación podrá estar asociada a alguna categoría, es decir, un elemento concreto o asunto definido en el sistema. REQ9.  Cada notificación podrá tener asociados uno o varios comentarios. REQ10.  Las notificaciones podrán tener dos niveles: gestión y desarrollo. REQ11.  Las notificaciones de gestión corresponderán a tareas administrativas. REQ12.  Las notificaciones de desarrollo corresponderán a corrección de errores de programación o implementación de nuevas funcionalidades o mejoras solicitadas. I.1.1.1.3. DICCIONARIO LOGÍSTICO 
+REQ13.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá almacenar y mantener un registro de términos logísticos común a todo el conjunto de las Fuerzas Armadas (FAS), permitiendo su creación, eliminación y modificación. 
+I.1.1.1.4. GESTIÓN DE VERSIONES 
+REQ14.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá el trámite de las tareas de desarrollo propias del sistema, ya se trate de corrección de errores de programación o de nuevas funcionalidades o mejoras solicitadas. REQ15.  Una tarea de desarrollo (en adelante TD) es una notificación de usuario con algunos datos adicionales. REQ16.  El ciclo de vida de una TD pasará por los estados nueva, aprobada, en desarrollo, implementada, en prototipo, validada, en versión y rechazada. I.1.1.1.5. CONFIGURACIÓN 
+REQ17.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá la creación, modificación, consulta o eliminación de los registros de las tablas de configuración del sistema (firmantes, tablas generales, unidades, estructura logística o inspectores de taller) 
+I.1.2. 	MÓDULO DE MANTENIMIENTO E INGENIERÍA DEL CICLO DE VIDA (ARSENALES) 
+I.1.2.1. APROVISIONAMIENTO 
+I.1.2.1.1. ALMACENAMIENTO Y CONTROL DE EXISTENCIAS 
+I.1.2.1.1.1. COMBUSTIBLE 
+REQ18.  	El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá monitorizar el nivel de combustible en las estaciones suministradoras o almacenes de combustible de la Armada, así como el consumo de combustible de las unidades. 
+I.1.2.1.1.2. FICHA DE MATERIAL 
+REQ19.  Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá solicitar los repuestos necesarios para los partes de mantenimiento emitidos para las Jefaturas, eliminación de pedidos y devolución de repuestos a la cadena de abastecimiento. 
+I.1.2.2. GESTIÓN ECONÓMICA 
+I.1.2.2.1. COMPRAS LOCALES 
+REQ20.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la gestión de las peticiones de material de adquisición local mediante contratos abiertos y menores. REQ21.  El catálogo de material estará formado por los artículos que se suministran a los Arsenales mediante contratos abiertos en vigor. REQ22.  Cada material se vinculará a un Arsenal y una familia de material 
+(electricidad, ferretería, ofimática, etc.). REQ23.  Un contrato abierto estará vinculado a un Arsenal (compra local). I.1.2.2.2. EXPEDIENTES 
+REQ24.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la consulta y el trámite de expedientes de contratación, facturas y liquidaciones. REQ25.  Enviará a SIDAE expedientes y liquidaciones. REQ26.  SIDAE enviará al  Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) la adjudicación de expedientes, la cancelación de adjudicación de expedientes, el rechazo de expedientes y la cancelación de liquidaciones. REQ27.  Estas operaciones se realizarán a través de servicios WEB. I.1.2.2.3. OFERTAS 
+REQ28.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) realizará una prospección de mercado abriendo un período de oferta, de tal forma que, se puedan recibir presupuestos para un parte de mantenimiento de todas aquellas empresas a las que se les haya solicitado. REQ29.  El proceso de gestión de ofertas comienza con la apertura del período de oferta y termina con la preadjudicación de la obra, en base a unos criterios, a una de las empresas participantes. I.1.2.2.4. RECURSOS SIDAE 
+REQ30.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la recepción desde SIDAE de los recursos económicos y modificaciones de presupuesto de los mismos para un año y UGE 
+(arsenal/jefatura). 
+REQ31.  	Esta información se recibirá a través de Servicios Web. 
+I.1.2.3. INGENIERÍA 
+I.1.2.3.1. CONFIGURACIÓN 
+I.1.2.3.1.1. ÁRBOL DE ELEMENTOS CONFIGURADOS 
+REQ32.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá el mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) de 
+los Árboles de Elementos Configurados (AECs) de las unidades de la Armada. 
+I.1.2.3.1.2. AUDITORÍAS DE CONFIGURACIÓN 
+REQ33.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la obtención de las fichas necesarias para la realización de una auditoría o validación de la configuración de una unidad. 
+I.1.2.3.1.3. DISCREPANCIAS A LA CONFIGURACIÓN 
+REQ34.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la consulta y el trámite de las novedades a la configuración recibidas mediante informes de discrepancia o de notificaciones generales del sistema. REQ35.  Las discrepancias deben pasar por dos fases para su resolución, “evaluación previa” y “coordinación y resolución”. REQ36.  Para más información sobre el tipo de discrepancias y su trámite, véase el apartado 6.1.7 Informes de discrepancias a la configuración de la referencia x). I.1.2.3.1.4. NOMENCLÁTOR 
+REQ37.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá el mantenimiento de las voces, (materiales) pertenecientes al Nomenclátor de Material de la Armada, así como la vigilancia de situaciones de no alineamiento entre los AECs y Nomenclátor y Nomenclátor y el ANEP-413 cuando la voz tiene su equivalente. 
+I.1.2.3.1.5. REVISIÓN DE CONFIGURACIÓN 
+REQ38.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la revisión, por parte de la SECALI, de los árboles de elementos configurados de aquellas unidades que aún no se han entregado a la Armada y cuyo desarrollo está todavía en manos del constructor. 
+REQ39.  Durante este proceso se permitirá revisar la correcta ubicación e identificación de los elementos configurados de una versión del AEC, la 
+idoneidad de los manuales técnicos y mantenimientos vinculados a los elementos configurados. 
+I.1.2.3.2. DOCUMENTACIÓN TÉCNICA 
+I.1.2.3.2.1. DOCUMENTOS 
+REQ40.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá poner a disposición de los usuarios las instrucciones técnicas para la preparación y pintado de las superficies de las unidades de la Armada. REQ41.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá custodiar y mantener un catálogo de documentación técnica que incluya los manuales técnicos de equipos asociados a los elementos de configuración y facilitar el acceso a los usuarios a dicha documentación. REQ42.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá el almacenamiento y mantenimiento de documentos o de cualquier otro tipo de archivo que se considere de interés por temática. I.1.2.3.2.2. REVISIÓN 
+REQ43.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá gestionar el proceso de aprobación de MTE por parte de los organismos competentes e incorporar los manuales al repositorio de documentación técnica si así se decide durante dicho proceso. 
+I.1.2.4. MANTENIMIENTO 
+I.1.2.4.1. CONTROL 
+I.1.2.4.1.1. CADUCIDADES 
+REQ44.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá controlar las revisiones de equipos sujetos a caducidad de las unidades. 
+I.1.2.4.1.2. SEGURIDAD INTERIOR 
+REQ45.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá detectar y valorar las diferencias al cargo del material de 
+seguridad interior de las unidades. 
+I.1.2.4.2. PARTES 
+REQ46.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la creación, modificación, eliminación y consulta de partes de mantenimiento, así como la obtención informes relativos a éstos. REQ47.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la tramitación los partes de mantenimiento de primer escalón (realizado por la unidad) a través de todas sus etapas. REQ48.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la tramitación los partes de mantenimiento de segundo y/o tercer escalón a través de todas sus etapas incluyendo los procesos de notificación electrónica cuando corresponda. I.1.2.4.3. PLANIFICACIÓN 
+I.1.2.4.3.1. ICMP 
+REQ49.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá implantar y controlar la ejecución del plan de mantenimiento ICMP y proporcionar herramientas adicionales para dichos procesos. 
+I.1.2.4.3.2. INMOVILIZACIONES 
+REQ50.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la preparación del calendario de inmovilizaciones de las unidades y el trámite de los cambios de prioridad logística. 
+I.1.2.4.3.3. PMS 
+REQ51.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Arsenales) permitirá la implantación y el control de la ejecución del plan de mantenimiento PMS. 
+ 
+ 
+ 	 
+I.1.3. 	MÓDULO DE MANTENIMIENTO E INGENIERÍA DEL CICLO DE VIDA (AERONAVES) 
+I.1.3.1. ADMINISTRACIÓN Y SOPORTE 
+I.1.3.1.1. TABLAS 
+I.1.3.1.1.1. ESTRUCTURA LOGÍSTICA 
+REQ52.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la creación, la modificación y la eliminación de los centros orgánicos de la FLOAN, (incluyendo buques y talleres), y de los centros de la industria (centros inorgánicos) relacionados con el sostenimiento de las aeronaves de la FLOAN, además de los aeródromos. 
+I.1.3.1.2. USUARIOS 
+I.1.3.1.2.1. INDICADORES 
+REQ53.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la consulta del registro de actividad de acceso de usuarios al sistema. 
+I.1.3.2. APROVISIONAMIENTO 
+I.1.3.2.1. ALMACENAMIENTO Y CONTROL DE EXISTENCIAS 
+I.1.3.2.1.1. AERONAVES 
+REQ54.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la gestión de los equipos, considerando que un equipo está identificado unívocamente por un Part Number y un Fabricante. REQ55.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la identificación, control y seguimiento de todo el material seriado dado de alta en la FLOAN, controlando aquellos equipos con inspecciones periódicas, vida limitada, sujetos a un control de configuración para la aeronavegabilidad, o que se consideran de interés por su valor logístico. REQ56.  Un seriado sólo se puede vincular a un P/N. Un seriado se puede vincular con una entidad responsable de su gestión. I.1.3.2.1.2. FICHA DE MATERIAL 
+REQ57.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la identificación, control y seguimiento de los Números de Catálogo de la OTAN (NSNs). REQ58.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la creación de guías de entrega nuevas, modificación las existentes o consulta de toda la información con respecto a dichas guías, como su estado, (en preparación o enviada), los equipos que contienen o la documentación que llevan asociada. REQ59.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá el seguimiento del estado del material que se envía a 4º Escalón para reparación, según el flujo descrito en el apartado 7.8.3. 
+Flujo de aprovisionamiento de la referencia x). I.1.3.3. INDICADORES 
+I.1.3.3.1. PREDEFINIDOS POR ROL 
+REQ60.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la generación de indicadores que midan el uso del sistema. 
+I.1.3.4. INGENIERÍA 
+I.1.3.4.1. CERTIFICACIÓN 
+I.1.3.4.1.1. CERTIFICADOS DE AERONAVEGABILIDAD 
+REQ61.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá el registro de los certificados de tipo y aeronavegabilidad de las aeronaves. REQ62.  El Certificado de Tipo no tiene renovaciones y se concede a un modelo de aeronave, y por tanto a todas las aeronaves de ese modelo. REQ63.  El Certificado de Aeronavegabilidad sí tiene renovaciones y es exclusivo de una aeronave concreta. REQ64.  Solo se permite un certificado de Tipo por modelo de aeronave o un certificado de aeronavegabilidad vigente por aeronave. REQ65.  Se permite registrar diferentes Certificados de Aeronavegabilidad asociados a una aeronave, pero solo puede estar uno de ellos vigente en cada momento. 
+I.1.3.4.1.2. MANTENIMIENTO 
+REQ66.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) gestionará la concesión del certificado de aptitud a cada uno de los PMMs generados en la Flotilla por parte de Ingeniería o por el personal cualificado para ello de Armada. 
+I.1.3.4.2. CONFIGURACIÓN 
+I.1.3.4.2.1. AERONAVES 
+REQ67.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la identificación y mantenimiento de las aeronaves de la FLOAN. 
+I.1.3.4.2.2. ÁRBOL DE ELEMENTOS CONFIGURADOS 
+REQ68.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá el mantenimiento de los Árboles de Elementos Configurados (AECs) de las aeronaves de la Armada siguiendo los estándares establecidos, como, por ejemplo, S1000D o WUC. 
+REQ69.  	En cada momento sólo podrá existir un AEC en estado “Validado”. 
+I.1.3.4.2.3. INVENTARIO 
+REQ70.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la gestión y actualización de los inventarios de aeronaves y equipos. REQ71.  Un inventario detalla los equipos concretos que tiene instalados una aeronave o equipo está basado en un AEC. REQ72.  Se genera cuando se realiza la vinculación del árbol de configuración al modelo de aeronave o equipo correspondiente. REQ73.  Sólo se permite un inventario por aeronave o equipo. REQ74.  Los equipos que forman parte de un inventario deben ser seriados, es decir, tener un S/N asociado. I.1.3.4.2.4. MODELOS DE AERONAVES 
+REQ75.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la identificación y mantenimiento de los modelos de aeronave de la FLOAN. 
+I.1.3.4.2.5. TIPOS DE AERONAVES 
+REQ76.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá la identificación y mantenimiento de los tipos de aeronave de la FLOAN. 
+I.1.3.4.3. DOCUMENTACIÓN TÉCNICA 
+REQ77.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá el alta, validación, estudio, aprobación e incorporación de la documentación técnica asociada a las aeronaves y al material. REQ78.  Permitirá la gestión de documentos de tipo Directivas Técnicas, Documentación General y MOD/REP (Diseño de Modificaciones y Diseño de Reparaciones). REQ79.  Se realizará mediante el seguimiento de un flujo establecido en el  apartado 7.12.2. Flujo de la de la referencia x), que refleja el proceso administrativo por el cual evolucionará la documentación de técnica durante su realización mediante distintos estados administrativos. I.1.3.4.4. VUELOS 
+I.1.3.4.4.1. ACTUALIZACIÓN USV 
+REQ80.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá el alta y validación de los registros de vuelo de las aeronaves de la FLOAN, y suma de las unidades de seguimiento de vida a los componentes instalados en las aeronaves, con objeto de controlar la vida acumulada por estas y sus componentes. REQ81.  Este seguimiento permitirá controlar la aeronavegabilidad y generar los avisos pertinentes de mantenimiento programado. REQ82.  Cada registro de vuelo va asociado a una sola aeronave. REQ83.  Un registro de vuelo puede incluir varios vuelos intermedios, (escalas/etapas). REQ84.  	Se puede registrar un valor por cada unidad de seguimiento asignada al modelo. 
+I.1.3.5. MANTENIMIENTO 
+I.1.3.5.1. PARTES 
+REQ85.  El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida (Aeronaves) permitirá gestionar partes de mantenimiento, desde su creación hasta su finalización, así como obtener informes relativos a ellos. REQ86.  Los sujetos de un parte de mantenimiento pueden ser: aeronaves, equipos o centros orgánicos. REQ87.  Los partes de mantenimiento pueden requerir certificación. REQ88.  Todas las instalaciones y desinstalaciones de equipos se deben hacer a través de un PMM. REQ89.  El material que se usa para realizar el mantenimiento debe estar calibrado.  
+I.2. REQUISITOS NO FUNCIONALES  
+I.2.1 RENDIMIENTO 
+REQ90. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida tendrá una disponibilidad del 98,5%, considerando que deberá estar funcionado 24 horas al día, 7 días a la semana, 365 días al año. 
+REQ91. El Adjudicatario cubrirá las necesidades de despliegue de nuevas versiones, de mantenimiento o restablecimiento del sistema ante un fallo catastrófico o de caída del mismo. 
+REQ92. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida tendrá la capacidad de funcionar en modo aislado (off-line) durante periodos de tiempo en buques o unidades con conectividad intermitente o sin conectividad. 
+REQ93. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá un mínimo de 15.000 usuarios finales. 
+REQ94. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida permitirá el almacenamiento de datos por el periodo marcado en la normativa vigente (mínimo de 5 años). 
+REQ95. Cualquier transacción del El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida deberá responder al usuario en un tiempo real (inferior a 3 segundos en cualquier condición de utilización). 
+I.2.2 CÓDIGO FUENTE 
+REQ96. El Contratista entregará, como parte del suministro, el código fuente del El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida desarrollado al amparo de este Acuerdo Marco para su custodia por el RC, además de todos los elementos necesarios para poder compilar y ejecutar el SW desarrollado.  
+I.2.3 BASE DE DATOS 
+En este apartado se relacionan los requisitos de la base de datos a utilizar para el almacenamiento de datos. 
+REQ97. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida utilizará una base de datos Microsoft SQL Server, con la última versión vigente en la I3D. 
+REQ98. La base de datos relacional utilizada por el Módulo de Mantenimiento e Ingeniería del Ciclo de Vida deberá estar normalizada4 al menos hasta la Tercera Forma Normal (3FN).  
+REQ99. La base de datos tendrá la capacidad suficiente para manejar el volumen de datos que maneja el Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+REQ100. Se implementarán los procesos de migración necesarios para transformar los datos de las Aplicaciones Logísticas de Aprovisionamiento en uso a la base de datos del Módulo de Aprovisionamiento. 
+REQ101. Se implementarán los procesos de migración necesarios para transformar los datos de las Aplicaciones de sostenimiento legadas GALIA Arsenales y GALIA Aeronaves en uso a la base de datos del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+REQ102. Los procesos de migración deberán eliminar todos los datos redundantes existentes, así como toda la información almacenada que se califique como inservible mediante el proceso de análisis correspondiente. 
+I.2.4 FORMACIÓN 
+REQ103. El contratista elaborará con la antelación suficiente el Plan de Formación y Adiestramiento. Dicho plan contemplará de forma detallada los siguientes aspectos: 
+• Calendario, lugar, esquema y relación del contenido de los cursos. 
+• Programa de formación de los operadores y mantenedores del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida, especificando la lista de conocimientos previos de los alumnos y las capacidades esperadas como resultado. 
+• Coordinación con los planes de adquisición, pruebas e instalación. 
+• Estudio y recomendación de la estructura, entidad y cualificaciones de los equipos humanos necesarios en la estructura orgánica de la Armada y CESTIC para apoyar la administración, modelado, automatización y mantenimiento del Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+• Especificación de los materiales y herramientas de apoyo a los cursos, incluyendo la documentación de formación e infraestructura necesaria. 
+REQ104. Cada curso dispondrá, al menos, de un manual por persona (físico y formato electrónico), y se elaborarán manuales diferentes para cada tipo de curso. 
+REQ105. Los cursos y el material didáctico serán en español, exceptuando únicamente los manuales técnicos para los que no exista versión traducida. 
+REQ106. En el PGC y en el PFA se concretarán el personal y la duración de los diferentes cursos a realizar. 
+REQ107. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida dispondrá de funcionalidades de autoaprendizaje de necesarias para el adiestramiento del usuario.  
+ 
+I.2.5 DOCUMENTACIÓN 
+REQ108. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida contemplará la gestión de la documentación en el formato descrito en el estándar S1000D. 
+REQ109. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida contemplará la gestión de la documentación en los formatos utilizados por las aplicaciones legadas. 
+REQ110. El Módulo de Mantenimiento e Ingeniería del Ciclo de Vida cumplimentará el eEMGDE-MDEF. 
+
+ANEXO II. 	ENTORNO TECNOLÓGICO 
+II.1. ENTORNOS REQUERIDOS 
+La Plataforma Logística SIL requiere cuatro (4) entornos diferentes: 
+• Desarrollo. 
+• Preproducción. 
+• Producción. 
+• Formación. 
+La DISOS es el organismo responsable del mantenimiento correctivo, evolutivo, adaptativo y perfectivo de la plataforma. La gestión del entorno de desarrollo recae en el mismo organismo y se apoya en el Centro de Explotación CIS en las instalaciones de la JAL. El resto de los entornos serán gestionados por CESTIC. 
+II.2. ENTORNO DE DESARROLLO 
+A continuación, se describen los requisitos mínimos (aproximados) que debe satisfacer el Entorno de Desarrollo del SIL en el que se desarrollará en Módulo de Mantenimiento e Ingeniería del Ciclo de Vida. 
+II.2.1. RECURSOS DE INFRAESTRUCTURA 
+II.2.1.1. HARDWARE 
+• Servidores 2 Dell R450 
+• Procesador 2 Intel Xenon Silver 4316 CPU @ 2.30GHz con 20 núcleos cada uno. 
+• Memoria de 128GB 
+• 2 unidades iSCSI Dell ME5012 para compartir el almacenamiento entre los 2 nodos. 
+II.2.1.2. HARDWARE 
+• Sistema operativo Windows Server (versión y edición autorizadas por CESTIC) 
+• Net Core (versión y edición autorizadas por CESTIC) 
+• Servidor de Aplicaciones MS Internet Information Server (versión y edición autorizadas por CESTIC) 
+• SQL Server (versión y edición autorizadas por CESTIC) 
+• WebMethods 10.05 
+• Elasticsearch 8.5.3 
+• Kibana 8.5.3 
+• FSCrawler 	2.9 
+ANEXO III. 	GLOSARIO DE TÉRMINOS 
+ 
+Término 	 	Descripción AEC  Árbol de Elementos Configurados AG  Arquitectura Global AJAL  Almirante Jefe de la Jefatura del Apoyo Logístico de la Armada AJAX  Asynchronous JavaScript And XML (JavaScript asíncrono y XML) ANEP  Allied Naval Engineering Publication ASP.NET  Entorno para aplicaciones web, desarrollado y comercializado por Microsoft. Es usado por programadores y diseñadores para construir sitios web dinámicos, aplicaciones web y servicios web XML ARGO  Plataforma de Armonización para la Gestión de la Organización del MINISDEF AT  Apoyo Técnico ATAVIA  Automatización de Tareas de Vigilancia y Análisis AQAP  Allied Quality Assurance Publications (publicaciones aliadas de garantía de calidad) BOD  Boletín Oficial de Defensa BUI  Buques, Unidades o Instalaciones C#  Lenguaje de programación (C Sharp) CCN  Centro Criptológico Nacional CESTIC  Centro de Sistemas y Tecnologías de la Información y las 
+Comunicaciones del Ministerio de Defensa CIS/TIC  Sistemas y Tecnologías de la Información y las Comunicaciones COA (NSCC)  Clase OTAN de Abastecimiento (en inglés NATO Supply Class). Código numérico de cuatro posiciones que identifica, según el Sistema OTAN de Catalogación, la clasificación para el abastecimiento de un artículo en base a sus características físicas o funcionales. Los dos primeros dígitos identifican el Grupo de abastecimiento y los dos últimos identifican la Clase específica dentro del Grupo CSS  Cascading Style Sheets (Hojas de Estilo en Cascada) CT  Coordinador Técnico CVS  Control Version System DICODEF  Directorio Corporativo de Defensa DDL  Data Definition Language DISOS  Dirección de Sostenimiento de la JAL de la Armada DML  Data Manipulation Language ED  Equipo de Desarrollo eEMGDE  Esquema de Metadatos para la Gestión del Documento Electrónico ENS  Esquema Nacional de Seguridad ETL  Extract, Transform and Load (Extracción, Transformación y Carga) FAS  Fuerzas Armadas FLOAN  Flotilla de Aeronaves de la Armada GALIA  Gestión de Apoyo Logístico Integrado de la Armada GB  Gigabytes GD  Gemelo Digital GHz  Gigahertz GU  Guía de Uso HTML  HyperText Markup Language (Lenguaje de Marcado de Hipertexto) HW  Hardware 
+	Término 	 	Descripción I3D  Infraestructura Integral de Información para la Defensa ICMP  Integrated Class Maintenance Plan (Plan Integrado de Mantenimiento de Clase) IELTS  International English Language Testing System (sistema internacional de prueba del idioma inglés). IIS  Internet Information Services (servicios de información de Internet). Es un servidor web y un conjunto de servicios para el sistema operativo Microsoft Windows. IT  Instrucción Técnica IVA  Impuesto sobre el Valor Añadido JAL  Jefatura del Apoyo Logístico de la Armada JS  Javascript LCSP  Ley de Contratos del Sector Público MB  Megabytes MCER  Marco Común Europeo de Referencia para las lenguas. MDEF  Ministerio de Defensa MINISDEF  Ministerio de Defensa. MOD/REP  Diseño de Modificaciones y Diseño de Reparaciones MS-IIS  Microsoft Internet Information Server MTE  Manual Técnico .NET 
+Framework  Entorno de ejecución administrado para Windows que proporciona diversos servicios a las aplicaciones en ejecución. Consta de dos componentes principales: Common Language Runtime (CLR), que es el motor de ejecución que controla las aplicaciones en ejecución, y la biblioteca de clases de .NET Framework, que proporciona una biblioteca de código probado y reutilizable al que pueden llamar los desarrolladores desde sus propias aplicaciones. https://docs.microsoft.com/eses/dotnet/framework/get-started/, fecha de consulta 4-feb-2020. NATO  North Atlantic Treaty Organization NAVSEA  Naval Sea Systems Command NSN  NATO Stock Number (Número OTAN de Catálogo en español). Número asignado por una Oficina Nacional de Catalogación a una identificación aprobada de un artículo. Está compuesto por trece dígitos, de los cuales, los cuatro primeros corresponden a la COA y los nueve siguientes al NIIN NSPA  NATO Support and Procurement Agency (agencia OTAN de apoyo y adquisiciones) OTAN  Organización del Tratado del Atlántico Norte (NATO, siglas en inglés) P/N  Part Number PAGR  Plan de Análisis y Gestión de Riesgos PC  Plan de Calidad PC  Petición (o propuesta) de Cambio PD  Plan de Documentación PECAL  Publicación Española de Calidad PECD  Plan Específico de Calidad de Datos PECIS  Plan Estratégico de los Sistemas y Tecnologías de la Información y las Comunicaciones PFA  Plan de Formación y Adiestramiento PGC  Plan de Gestión del Contrato PGConf  Plan de Gestión de la Configuración PIDA  Propuesta Inicial De Apoyo. PMM  Parte de Mantenimiento Mecanizado Término 	 	Descripción PMS  Planned Maintenence System P/N  Part Number PN  Part Number PPT  Pliego de Prescripciones Técnicas PS  Plan de Sprint PSSDEF  Plataforma de Servicios de Seguridad del MINISDEF PSI  Plan de Seguridad de la Información PUA  Portal Único de Acceso RCA  Responsable del Contrato de la Administración RDBMS  Relational Database Management System RF  Radio Frecuencia S/N  Serial Number SECALI  Sección de Coordinación del Apoyo Logístico Integrado SEGINFODOC  Normas de Seguridad de la Información en los Documentos SICAD  Sistema de Catalogación de la Defensa SIDAE  Sistema Informático de Dirección y Administración Económica del Ministerio de Defensa SIL  Sistema de Información Logística SN  Serial Number SO  Sistema Operativo SOA  Service-Oriented Architecture (arquitectura orientada a servicios) SOAP  Simple Object Access Protocol SOAPUI  Simple Object Access Protocol User Interface Sprint  Iteración para producir el incremento de producto cuando se emplea una metodología de desarrollo de SW ágil SQL  Structured Query Language STAL  Sección Técnica de Aplicaciones Logísticas STIC  Seguridad de las Tecnologías de la Información y las Comunicaciones SW  Software TB  Terabytes TD  Tarea de Desarrollo T-SQL  Transact-SQL TD  Tarea de Desarrollo TOEFL  Test of English as a Foreign Language (test de inglés como lengua extranjera). UE  Unión Europea UGE  Unidad de Gestión UML  Unified Modeling Language (lenguaje de unificado de modelado) UNOR  Unidad Orgánica USV  Unidades de Seguimiento de Vida WUC  Work Unit Code según THE NAVAL AVIATION MAINTENANCE PROGRAM (NAMP) XML  Extensible Markup Language (lenguaje de marcado extensible) XSLT  Extensible Stylesheet Language Transformations (Lenguaje de Transformación basado en Hojas de Estilo).  
+1 El dominio del buque también forma parte de la I3D. 
+2 Un Sprint es una iteración para producir el incremento de producto cuando se emplea una metodología de desarrollo de SW ágil. 
+3 NATO -ANEP-41, Ship Costing, 1 de abril de 2006 
+4 La normalización de bases de datos es un proceso que consiste en designar y aplicar una serie de reglas a las relaciones obtenidas tras el paso del modelo entidad-relación al modelo relacional con objeto de minimizar la redundancia de datos, facilitando su gestión posterior. Esto redunda en la minimización de la redundancia de los datos, en la disminución de problemas de actualización de los datos en las tablas y en la protección la integridad de datos. 
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+
+
+
+
+
+
+
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+- 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+- 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+ 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+ 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
+	MINISTERIO 	JEFATURA DEL APOYO LOGISTICO ARMADA 
+	DE DEFENSA 	 	DIRECCIÓN DE SOSTENIMIENTO 
+	 	 	SECCIÓN TÉCNICA APLICACIONES LOGÍSITICAS 
+ 
+ 
+
+ 
+PPT –AM Mantenimiento evolutivo de la Plataforma Logística SIL de la Armada 	 
+Pág. 4 de 66 
+
